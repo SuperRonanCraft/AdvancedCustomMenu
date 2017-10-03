@@ -13,7 +13,7 @@
 - #### Click-Type ####
   Info: The click type a player must click an item to allow execution  
   Execution: Upon a player clicks the item  
-  Values:
+  Values:  
     \- Types accepted are 'left', 'right' or 'middle' (can be combined with a comma "," seperating each)  
   Default Value: none
     
