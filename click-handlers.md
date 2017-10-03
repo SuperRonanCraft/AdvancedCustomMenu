@@ -14,14 +14,14 @@
   Info: The click type a player must click an item to allow execution  
   Execution: Upon a player clicks the item  
   Values:
-    - Types accepted are 'left', 'right' or 'middle' (can be combined with a comma "," seperating each)  
+    \- Types accepted are 'left', 'right' or 'middle' (can be combined with a comma "," seperating each)  
   Default Value: none
     
 - #### Shift ####
   Info: Specifies whether the handler needs a shift click  
   Execution: After [Click-Type](#user-content-click-type) if passed successfully  
   Values:  
-    - 'true' or 'false'  
+    \- 'true' or 'false'  
   Default Value: none
 
 - #### Price ####
@@ -51,6 +51,6 @@
 - #### Close ####
   Info: Closes the menu after a click handler  
   Values:  
-    - 'true' value will close the menu when [Commands](#user-content-commands) were successfully passed
-    - 'false' will keep the menu open no matter what (default)  
+    \- 'true' value will close the menu when [Commands](#user-content-commands) were successfully passed
+    \- 'false' will keep the menu open no matter what (default)  
   Default Value: 'false'
