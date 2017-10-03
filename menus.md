@@ -1,5 +1,6 @@
 # Menus #
-The fudamental reason you have this plugin installed!
+The fudamental reason you have this plugin installed!  
+View a menu with an example of all sections on the [Example.yml](files/Example.yml) file
 ***
 ### Summary ###
   - [Title](#title---required)
