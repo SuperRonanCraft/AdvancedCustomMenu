@@ -31,7 +31,14 @@ Extra: Supports Placeholders!
 Info: The itemstack to display in the specified frame  
 Value Format: \[itemName\]:\<data\>:\<amount\>  
 Extra:  
+ - Supports Placeholders!
  - Data and Amount are optional!  
  - Data changes the data type, such as orange wool being "wool:1"  
  - Amount can be added without altering the data with a "0" in place for data  
  - Find a list of item names [here](http://minecraft-ids.grahamedgecombe.com)  
+
+#### Lore ####
+***
+Info: The lore of the item
+Value Type: String list
+Extra: Supports Placeholders!
