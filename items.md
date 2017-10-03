@@ -1,6 +1,6 @@
 # Items #
-Create a beautiful and interactive item, displaying useful information!
-To view a menu with an example of all item sections on the [Example.yml](files/Example.yml) file
+Create a beautiful and interactive item, displaying useful information!  
+View a menu with an example of all sections on the [Example.yml](files/Example.yml) file
 ***
 ### Summary ###
  - [Slot](#slot---required)
