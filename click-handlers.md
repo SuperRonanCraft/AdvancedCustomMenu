@@ -51,6 +51,6 @@
 - #### Close ####
   Info: Closes the menu after a click handler  
   Values:  
-    \- 'true' value will close the menu when [Commands](#user-content-commands) were successfully passed
+    \- 'true' value will close the menu when [Commands](#user-content-commands) were successfully passed  
     \- 'false' will keep the menu open no matter what (default)  
   Default Value: 'false'
