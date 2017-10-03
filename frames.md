@@ -1,5 +1,5 @@
 # Frames #
-Create an item and make it animated too!
+Create an item and make it animated too!  
 Info: Each frame must be in it's own section under "Frames"
 Example:
 ```yaml
