@@ -1,5 +1,6 @@
 # Items #
 Create a beautiful and interactive item, displaying useful information!
+To view a menu with an example of all item sections on the [Example.yml](files/Example.yml) file
 ***
 ### Summary ###
  - [Slot](#slot---required)
@@ -12,8 +13,8 @@ Create a beautiful and interactive item, displaying useful information!
 Info: The slot in which an item should be placed  
 Value Type: Integer   
 Extra:   
- \- The lastest item will override any previously placed items if two or more items have the same slot  
- \- A slot must be less than the total slots shown in the menu to display
+ - The lastest item will override any previously placed items if two or more items have the same slot  
+ - A slot must be less than the total slots shown in the menu to display
 
 #### Frame-Delay ####
 ***
