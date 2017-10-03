@@ -2,11 +2,11 @@
 The fudamental reason you have this plugin installed!
 ***
 ### Summary ###
-  - [Title](#title)
-  - [Frame-Delay]
-  - [Rows]
-  - [Commands]
-  - [Items]
+  - [Title](#title---required)
+  - [Frame-Delay](#frame-delay)
+  - [Rows](#rows---required)
+  - [Commands](#commands)
+  - [Items](#items)
 
 ### Title - *Required*
 ***
