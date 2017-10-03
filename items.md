@@ -25,7 +25,7 @@ Default Value: 20
 ***
 Info: Each frame can have it's own item, name and lore!  
 Value Type: Section of key-section pairs  
-Extra: Go to the [Frame](frame.md) page to learn how to make a valid frame!
+Extra: Go to the [Frame](frames.md) page to learn how to make a valid frame!
 
 #### Click-Handlers ####
 ***
