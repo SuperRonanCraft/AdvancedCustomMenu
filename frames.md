@@ -39,6 +39,6 @@ Extra:
 
 #### Lore ####
 ***
-Info: The lore of the item
-Value Type: String list
+Info: The lore of the item   
+Value Type: String list  
 Extra: Supports Placeholders!
