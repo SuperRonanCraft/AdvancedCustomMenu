@@ -1,7 +1,7 @@
 # Welcome to the AdavancedCustomMenu tutorial page! #
 Here are the list of files you can use to get started: 
   - [Config](config.md): All about the config file! Learn how make the plugin tick ;)
-  - [Menus](menu.md): Learn the basics of making a beautiful interface! Learn that you can do with them
+  - [Menus](menus.md): Learn the basics of making a beautiful interface! Learn that you can do with them
   - [Items](items.md): Fill up a menu with colorful items! Learn what you can do
   - [Click-Handlers](click-handlers.md): Learn how to make an interactive menu!
 
