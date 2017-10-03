@@ -37,12 +37,11 @@ Items:
         Permission: 'test.lag'
   DataTypes:
     Slot: 5
-    ## Amount of ticks to delay each frame
     Frame-Delay: 20
     Frames:
       1:
-        Name: '&dHey there %player_name%' ## Required
-        Item: 'wool:1' ## Required
+        Name: '&dHey there %player_name%'
+        Item: 'wool:1'
         Lore:
         - ''
         - '&aSup %player_name%!'
