@@ -40,6 +40,6 @@ Commands: 'command1; command2'
 
 ### Items ###
 ***
-Info: The fundamental reason to have an menu, create items without allowing players to take them!
-Value Type: Section of Keys
+Info: The fundamental reason to have an menu, create items without allowing players to take them!  
+Value Type: Section of Keys  
 Extra: View the [Items](items.md) page to view how to create an item
