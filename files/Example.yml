@@ -1,0 +1,76 @@
+Title:
+- '&a&lExample Frame #1'
+- '&a&lExample Frame #2'
+Frame-Delay: 20
+Rows: 6
+Commands: 'ex; example'
+Items:
+  BroadcastOrLag:
+    Slot: 4
+    Frame-Delay: 20
+    Frames:
+      1:
+        Name: '&bHey there %player_name%'
+        Item: 'anvil'
+        Lore:
+        - ''
+        - '&7This is the first frame!'
+      2:
+        Name: '&aHey there %player_name%'
+        Item: 'anvil'
+        Lore:
+        - ''
+        - '&7This is the second frame!'
+    Click-Handlers:
+      1:
+        Commands:
+        - 'broadcast %player_name% is a savage!'
+        Close: true
+        Shift: true
+        Click-Type: 'left, right, center'
+        Permission: 'test.broadcast'
+      2:
+        Commands:
+        - 'lag'
+        Close: true
+        Shift: false
+        Permission: 'test.lag'
+  DataTypes:
+    Slot: 5
+    ## Amount of ticks to delay each frame
+    Frame-Delay: 20
+    Frames:
+      1:
+        Name: '&dHey there %player_name%' ## Required
+        Item: 'wool:1' ## Required
+        Lore:
+        - ''
+        - '&aSup %player_name%!'
+      2:
+        Name: '&cHey there %player_name%'
+        Item: 'wool:3:2'
+        Lore:
+        - ''
+        - '&bSup %player_name%!'
+      3:
+        Name: '&bHey there %player_name%'
+        Item: 'wool:5:3'
+        Lore:
+        - ''
+        - '&cSup %player_name%!'
+      4:
+        Name: '&aHey there %player_name%'
+        Item: 'wool:7:4'
+        Lore:
+        - ''
+        - '&dSup %player_name%!'
+  Neutral:
+    Slot: 6
+    Frames:
+      1:
+        Name: '&bI''m #1'
+        Item: 'tnt:0:16'
+        Lore:
+        - ''
+        - '&aI''m just one frame!'
+        - '&7And 16 tnt!'
