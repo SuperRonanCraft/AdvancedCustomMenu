@@ -5,6 +5,6 @@ Here are the list of files you can use to get started:
   - [Items](items.md): Fill up a menu with colorful items! Learn what you can do
   - [Click-Handlers](click-handlers.md): Learn how to make an interactive menu!
 
-Thank you for viewing the Wiki for [AdvancedCustomMenu] Link Coming Soon!
+Thank you for viewing the Wiki for [AdvancedCustomMenu](https://www.spigotmc.org/resources/47945/)!
 
 #### Did this wiki help you out? Please give it a ***Star*** so I know it's getting use! ####
