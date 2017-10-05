@@ -20,6 +20,7 @@ Frames:
  - [Name](#name---required)
  - [Item](#item---required)
  - [Lore](#lore)
+ - [Custom Placeholders](#custom-placeholders)
 
 #### Name - *Required* ####
 ***
@@ -42,3 +43,10 @@ Extra:
 Info: The lore of the item   
 Value Type: String list  
 Extra: Supports Placeholders!
+
+#### Custom Placeholders ####
+***
+Info: Placeholders that can be used inside any text area within the plugin!  
+List:
+ - %player_name%: Replaces with the name of the player
+ - {perm:<NODE>,<NODE2>}: If a player has all permission nodes, that line will be shown, opposite action is node begins with a '-'. For multiple, use a comma!
