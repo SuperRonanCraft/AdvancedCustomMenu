@@ -9,5 +9,5 @@ Thank you for viewing the Wiki for [AdvancedCustomMenu](https://www.spigotmc.org
 
 #### Did this wiki help you out? Please give it a ***Star*** so I know it's getting use! ####
 <p align="center">
-  <b><i><h3><a href="https://www.spigotmc.org/resources/authors/superronancraft.13025/">Check out my other plugins!</a></h3></i></b>
+  <b><i><a href="https://www.spigotmc.org/resources/authors/superronancraft.13025/">Check out my other plugins!</a></i></b>
 </p>
