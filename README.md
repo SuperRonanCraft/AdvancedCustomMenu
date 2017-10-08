@@ -8,5 +8,6 @@ Here are the list of files you can use to get started:
 Thank you for viewing the Wiki for [AdvancedCustomMenu](https://www.spigotmc.org/resources/47945/)!
 
 #### Did this wiki help you out? Please give it a ***Star*** so I know it's getting use! ####
-
-## [Check out my other plugins!](https://www.spigotmc.org/resources/authors/superronancraft.13025/) ##
+<p align="center">
+  <b><i><h3><a href="https://www.spigotmc.org/resources/authors/superronancraft.13025/">Check out my other plugins!</a></h3></i></b>
+</p>
