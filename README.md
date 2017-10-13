@@ -6,11 +6,14 @@ Here are the list of files you can use to get started:
   - [Click-Handlers](click-handlers.md): Learn how to make an interactive menu!
   - [Permissions](permissions.yml): View all permissions and their function
 
+<p align="center">
+  <b><i><a href="https://github.com/SuperRonanCraft/AdvancedCustomMenu/issues">If you have a suggestion, please make an issue!</a></i></b>
+</p>
+
 Thank you for viewing the Wiki for [AdvancedCustomMenu](https://www.spigotmc.org/resources/47945/)!
 
 #### Did this wiki help you out? Please give it a ***Star*** so I know it's getting use! ####
 
 <p align="center">
-  <br>
   <b><i><a href="https://www.spigotmc.org/resources/authors/superronancraft.13025/">Check out my other plugins!</a></i></b>
 </p>
