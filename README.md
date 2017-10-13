@@ -4,6 +4,7 @@ Here are the list of files you can use to get started:
   - [Menus](menus.md): Learn the basics of making a beautiful interface! Learn that you can do with them
   - [Items](items.md): Fill up a menu with colorful items! Learn what you can do
   - [Click-Handlers](click-handlers.md): Learn how to make an interactive menu!
+  - [Permissions](permissions.yml): View all permissions and their function
 
 Thank you for viewing the Wiki for [AdvancedCustomMenu](https://www.spigotmc.org/resources/47945/)!
 
