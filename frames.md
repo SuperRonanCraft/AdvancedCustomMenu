@@ -49,4 +49,4 @@ Info: Placeholders that can be used inside any text area within the plugin!
 List:
  - All [placeholders](https://www.spigotmc.org/wiki/placeholderapi-placeholders/) from [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/), if installed
  - %player_name%: Replaces with the name of the player
- - {perm:\<NODE\>,\<NODE2\>}: If a player has all permission nodes, that line will be shown, opposite action is node begins with a '-'. For multiple, use a comma!
+ - {perm:\<NODE\>,\<NODE2\>}: If a player has all permission nodes, that line will be shown, opposite action if node begins with a '-'.
