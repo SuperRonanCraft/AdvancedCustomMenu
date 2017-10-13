@@ -1,0 +1,18 @@
+    advancedcustommenu.*:
+        children:
+            advancedcustommenu.reload: true
+            advancedcustommenu.use: true
+            advancedcustommenu.updater: true
+            advancedcustommenu.open.*: true
+    advancedcustommenu.open.*:
+        description: Permission to open all menus
+        default: op
+    advancedcustommenu.use:
+        description: Permission to use plugin
+        default: op
+    advancedcustommenu.updater:
+        description: Permission to view update message
+        default: op
+    advancedcustommenu.reload:
+        description: Permission to reload plugin
+        default: op
