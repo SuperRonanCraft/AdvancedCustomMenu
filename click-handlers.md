@@ -1,5 +1,17 @@
 # Click Handlers #
-
+```yaml
+Click-Handlers:
+  <UNIQUE-ID>:
+    Click-Type: 'left, right, middle'
+    Shift: false
+    Commands:
+    - 'me I am awesome!'
+    Price: 10
+    Price-Message: '%prefix% &7Seems like you are not rich enough to be awesome'
+    Permission: 'example.savage'
+    Permission-Message: '%prefix% &cLooks like you are not savage enough to use this command!'
+    Close: true
+```
 ### Summary ###
 - [Click-Type](#user-content-click-type)
 - [Shift](#user-content-shift)
