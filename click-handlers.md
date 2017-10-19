@@ -28,7 +28,7 @@ Click-Handlers:
   Info: The click type a player must click an item to allow execution  
   Execution: Upon a player clicks the item  
   Default Value: none
-  ---------------
+  ~~------~~
   The available nodes are listed below
   These can all be combined using commas *(ex: 'left, right, middle')*
   - **left** player must left click
@@ -41,7 +41,7 @@ Click-Handlers:
   Info: Specifies whether the handler needs a shift click  
   Execution: After [Click-Type](#user-content-click-type) if passed successfully   
   Default Value: none  
-  ---------------
+  ~~------~~
   The available nodes are listed below
   - **true** player must click the item while shifting
   - **false** player must click the item without shifting
@@ -72,7 +72,7 @@ Click-Handlers:
   Info: The message to send when the player does not have [Permission](#user-content-permission)  
   Default value: Default "NoPermission" message  
   Extra: Supports placeholders
-  ---------------
+  ~~------~~
   Example:
   ```yaml
   Permission: 'donator.epic'
@@ -84,7 +84,7 @@ Click-Handlers:
   Info: List, supports placeholders  
   Execution: If the player has passed all the above click handlers  
   Extra: Supports placeholders  
-  ---------------
+  ~~------~~
   You can start off a command with any of the following to execute a special event to a player
   - **server:** connect a player to a specific bungeecord server
   - **player:** execute the command as the player *(Default)*
@@ -99,7 +99,7 @@ Click-Handlers:
 ***
   Info: Closes the menu after a click handler  
   Default Value: 'false'
-  ---------------
+  ~~------~~
   Available nodes are listed below
   - **true** will close the menu after the player clicks
   - **false** will not close the menu
