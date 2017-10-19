@@ -16,3 +16,4 @@
     advancedcustommenu.reload:
         description: Permission to reload plugin
         default: op
+## To allow a player to only open a certain menu, give them "advancedcustommenu.open.<name>" replacing <name> with the name of the file of the menu!
