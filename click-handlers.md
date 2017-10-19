@@ -92,7 +92,7 @@ Click-Handlers:
   - **chat:** make the player send a chat message
   - **message:** send a message to the player
   - **broadcast:** send a message to every player online
-  - **give:** give a player an item *(same syntax as [items](items.md))*
+  - **give:** give a player an item *(same syntax as a frames [item](frames.md#item---required))*
   - **op:** execute a command as an operator
 ***
 - #### Close ####
