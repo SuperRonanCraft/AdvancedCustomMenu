@@ -40,7 +40,7 @@ Click-Handlers:
 ***
   Info: Specifies whether the handler needs a shift click  
   Execution: After [Click-Type](#user-content-click-type) if passed successfully   
-  Default Value: none
+  Default Value: none  
   ---------------
   The available nodes are listed below
   - **true** player must click the item while shifting
