@@ -23,53 +23,54 @@ Items:
         - '&7This is the second frame!'
     Click-Handlers:
       1:
+        Click-Type: 'left'## If disabled, click-type is ignored
+        Shift: 'false' ## If disabled, shift is ignored
         Commands:
-        - 'broadcast %player_name% is a savage!'
-        Close: true
-        Shift: true
-        Click-Type: 'left, right, center'
-        Permission: 'test.broadcast'
+        - 'broadcast &a%player_name% &cis a savage&f!'
+        Price: 10 ## Must have vault and an economy plugin
+        Price-Message: '%prefix% &cWhoops, looks like you need %price% to use this command!'
+        Permission: 'example.savage'
+        Permission-Message: '%prefix% &cLooks like you are not savage enough to use this command!'
+        Close: 'onsuccess' ## Will close the menu if all handlers are successful
       2:
         Commands:
         - 'lag'
-        Close: true
-        Shift: false
+        Close: 'true'
+        Shift: 'false'
         Permission: 'test.lag'
-  DataTypes:
-    Slot: 5
+  Wools:
+    Slot: 2
     Frame-Delay: 20
     Frames:
       1:
-        Name: '&dHey there %player_name%'
-        Item: 'wool:1'
+        Name: '&cHey there %player_name%'
+        Item: 'wool:1' ## <item>:[data]:[amount] (Supports placeholders)
         Lore:
         - ''
-        - '&aSup %player_name%!'
+        - '&aThis is the first frame!'
       2:
-        Name: '&cHey there %player_name%'
+        Name: '&bHey there %player_name%'
         Item: 'wool:3:2'
         Lore:
         - ''
-        - '&bSup %player_name%!'
+        - '&bThis is the second frame!'
       3:
-        Name: '&bHey there %player_name%'
+        Name: '&aHey there %player_name%'
         Item: 'wool:5:3'
         Lore:
         - ''
-        - '&cSup %player_name%!'
-      4:
-        Name: '&aHey there %player_name%'
-        Item: 'wool:7:4'
-        Lore:
-        - ''
-        - '&dSup %player_name%!'
-  Neutral:
-    Slot: 6
+        - '&cThis is the third frame!'
+  TextPlaceholders:
+    Slot: 2
+    Frame-Delay: 20
     Frames:
       1:
-        Name: '&bI''m #1'
-        Item: 'tnt:0:16'
+        Name: '&cHey there %player_name%'
+        Item: 'tnt:0:32'
         Lore:
         - ''
-        - '&aI''m just one frame!'
-        - '&7And 16 tnt!'
+        - '&aYou are within these coordinates! {cords:x1=200 x2=-200,z1=200 z2=-200,y1=50 y2=70}'
+        - '&aYou are an epic player! {perm: donator.epic}' # Must have this permission to view this LINE
+    View-Handlers: # Added in v1.2.0
+      Permission: 'donator.epic' # Must have this permission to view this ITEM
+      Balance: 50 #Must have atleast $50 in their wallet to view this item
