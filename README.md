@@ -4,6 +4,7 @@ Here are the list of files you can use to get started:
   - [Menus](menus.md): Learn the basics of making a beautiful interface! Learn that you can do with them
   - [Items](items.md): Fill up a menu with colorful items! Learn what you can do
   - [Click-Handlers](click-handlers.md): Learn how to make an interactive menu!
+  - [View-Handlers](view-handlers.md): Make items invisible to certain players!
   - [Permissions](permissions.yml): View all permissions and their function
 
 <p align="center">
