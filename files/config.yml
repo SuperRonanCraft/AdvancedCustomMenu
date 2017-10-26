@@ -4,3 +4,4 @@ Messages:
   Reload: '%prefix% &aConfig and Messages Reloaded!'
   NotExist: '%prefix% &cThe menu &e%menu%&c does not exist!'
   Invalid: '%prefix% &cWhoops! &7Invalid argument, try &e/%command% help&7!'
+  Price: '%prefix% &cSorry! &7You must have atleast &f$%price% &7to us this!' # Added in 1.2.1
