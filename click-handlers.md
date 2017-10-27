@@ -12,6 +12,9 @@ Click-Handlers:
     Permission: 'example.savage'
     Permission-Message: '%prefix% &cLooks like you are not savage enough to use this command!'
     Close: true
+    Delay: 10
+    Delay-Message:
+    - '%prefix% Too fast! You must wait {secondsleft} secs to use this again!'
 ```
 ### Summary ###
 - [Click-Type](#user-content-click-type)
@@ -22,6 +25,8 @@ Click-Handlers:
 - [Permission-Message](#user-content-permission-message)
 - [Commands](#user-content-commands)
 - [Close](#user-content-close)
+- [Delay](#delay)
+- [Delay-Message](#delay-message)
 ***
 - #### Click-Type ####
 ***
@@ -59,7 +64,8 @@ Click-Handlers:
   Default Value: null  
   ```yaml
   Price: 'donator.epic'
-  Price-Message: '&cSorry %player_name%! &7You must have atleast $%price% to buy this!'
+  Price-Message:
+  - '&cSorry %player_name%! &7You must have atleast $%price% to buy this!'
   ```
 ***
 - #### Permission ####
@@ -76,7 +82,8 @@ Click-Handlers:
   Example:
   ```yaml
   Permission: 'donator.epic'
-  Permission-Message: '&cSorry %player_name%! &7You must be an &eEpic&7 donator to do this!'
+  Permission-Message:
+  - '&cSorry %player_name%! &7You must be an &eEpic&7 donator to do this!'
   ```
 ***  
 - #### Commands ####
@@ -104,3 +111,18 @@ Click-Handlers:
   - **true** will close the menu after the player clicks
   - **false** will not close the menu
   - **onsuccess** will close if all click-handlers were successfully passed
+***
+- #### Delay ####
+***
+  Info: Delay in seconds that a player must wait to click an item again
+  Default Value: null
+***
+- #### Delay-Message ####
+***
+  Info: The message to send to a player when a delay is active  
+  Default Value: null  
+  ~~----------~~  
+  Special Placeholders:  
+  - **{hoursleft}**: get the amount of hours left
+  - **{minutesleft}**: get the amount of minutes left in the hour
+  - **{secondsleft}** get the amount of seconds left in the minute
