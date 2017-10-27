@@ -124,7 +124,7 @@ Click-Handlers:
 - #### Delay ####
 ***
   Info: Delay in seconds that a player must wait to click an item again  
-  Default Value: null
+  Default Value: null  
   Value Type: Integer
 ***
 - #### Delay-Message ####
