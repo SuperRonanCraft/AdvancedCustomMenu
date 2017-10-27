@@ -1,43 +1,38 @@
 Title:
 - '&a&lExample Frame #1'
 - '&a&lExample Frame #2'
-Frame-Delay: 20
+Frame-Delay: 20 ## Frame delay for the title
 Rows: 6
 Commands: 'ex; example'
 Items:
-  BroadcastOrLag:
-    Slot: 4
-    Frame-Delay: 20
+  Broadcast:
+    Slot: 1
+    ## Amount of ticks to delay each frame
+    Frame-Delay: 20 ## 20 by default if disabled or if delay equals 0
     Frames:
-      1:
-        Name: '&bHey there %player_name%'
-        Item: 'anvil'
+      1: ## At least one frame is needed!
+        ## PlaceholderAPI is supported in every text section!
+        Name: '&bHey there %player_name%' ## Required
+        Item: 'anvil:2:4' ## Required
         Lore:
         - ''
         - '&7This is the first frame!'
       2:
         Name: '&aHey there %player_name%'
-        Item: 'anvil'
+        Item: 'anvil:1:5'
         Lore:
         - ''
         - '&7This is the second frame!'
     Click-Handlers:
       1:
         Click-Type: 'left'## If disabled, click-type is ignored
-        Shift: 'false' ## If disabled, shift is ignored
+        Shift: false ## If disabled, shift is ignored
         Commands:
         - 'broadcast &a%player_name% &cis a savage&f!'
         Price: 10 ## Must have vault and an economy plugin
         Price-Message: '%prefix% &cWhoops, looks like you need %price% to use this command!'
         Permission: 'example.savage'
         Permission-Message: '%prefix% &cLooks like you are not savage enough to use this command!'
-        Close: 'onsuccess' ## Will close the menu if all handlers are successful
-      2:
-        Commands:
-        - 'lag'
-        Close: 'true'
-        Shift: 'false'
-        Permission: 'test.lag'
   Wools:
     Slot: 2
     Frame-Delay: 20
@@ -60,17 +55,3 @@ Items:
         Lore:
         - ''
         - '&cThis is the third frame!'
-  TextPlaceholders:
-    Slot: 2
-    Frame-Delay: 20
-    Frames:
-      1:
-        Name: '&cHey there %player_name%'
-        Item: 'tnt:0:32'
-        Lore:
-        - ''
-        - '&aYou are within these coordinates! {cords:x1=200 x2=-200,z1=200 z2=-200,y1=50 y2=70}'
-        - '&aYou are an epic player! {perm: donator.epic}' # Must have this permission to view this LINE
-    View-Handlers: # Added in v1.2.0
-      Permission: 'donator.epic' # Must have this permission to view this ITEM
-      Balance: 50 #Must have atleast $50 in their wallet to view this item
