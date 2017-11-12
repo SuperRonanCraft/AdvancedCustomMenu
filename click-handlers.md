@@ -27,6 +27,7 @@ Click-Handlers:
 - [Close](#user-content-close)
 - [Delay](#delay)
 - [Delay-Message](#delay-message)
+- [Sounds]\*(#sounds)
 ***
 - #### Click-Type ####
 ***
@@ -137,3 +138,22 @@ Click-Handlers:
   - **{hoursleft}**: get the amount of hours left
   - **{minutesleft}**: get the amount of minutes left in the hour
   - **{secondsleft}** get the amount of seconds left in the minute
+  ***
+- #### Sounds ####
+***
+  Extra: More sounds can be found here(https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html)!
+  Info: The message to send to a player when a delay is active  
+  Default Value: null  
+  Value Type: Key List  
+  ~~----------~~  
+  Types:  
+  - **Basic**: Executed everytime the item is clicked
+  - **Success**: Played if the click-handlers were successful
+  - **Failed**: Played if the click-handlers did not pass
+  Example:
+  ```yaml
+  Sounds:
+    Basic: 'ITEM_ARMOR_EQUIP_GENERIC'
+    Success: 'ITEM_TOTEM_USE'
+    Failed: 'ENTITY_GHAST_DEATH'
+  ```
