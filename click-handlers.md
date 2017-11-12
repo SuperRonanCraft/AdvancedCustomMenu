@@ -15,6 +15,10 @@ Click-Handlers:
     Delay: 10
     Delay-Message:
     - '%prefix% Too fast! You must wait {secondsleft} secs to use this again!'
+    Sounds:
+      Basic: 'ITEM_ARMOR_EQUIP_GENERIC'
+      Success: 'ITEM_TOTEM_USE'
+      Failed: 'ENTITY_GHAST_DEATH'
 ```
 ### Summary ###
 - [Click-Type](#user-content-click-type)
@@ -150,10 +154,3 @@ Click-Handlers:
   - **Basic**: Executed everytime the item is clicked
   - **Success**: Played if the click-handlers were successful
   - **Failed**: Played if the click-handlers did not pass
-  Example:
-  ```yaml
-  Sounds:
-    Basic: 'ITEM_ARMOR_EQUIP_GENERIC'
-    Success: 'ITEM_TOTEM_USE'
-    Failed: 'ENTITY_GHAST_DEATH'
-  ```
