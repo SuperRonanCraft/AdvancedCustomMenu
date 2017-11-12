@@ -27,7 +27,7 @@ Click-Handlers:
 - [Close](#user-content-close)
 - [Delay](#delay)
 - [Delay-Message](#delay-message)
-- [Sounds]\*(#sounds)
+- [Sounds](#sounds)\*
 ***
 - #### Click-Type ####
 ***
