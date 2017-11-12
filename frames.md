@@ -33,7 +33,8 @@ Extra: Supports [Placeholders](#placeholders)!
 #### Item - *Required* ####
 ***
 Info: The itemstack to display in the specified frame  
-Value Format: \[itemName\]:\<data\>:\<amount\>  
+Type: String or Integer  
+Format: \[itemType\]:\<data\>:\<amount\>  
 Extra:  
  - Data and Amount are optional!  
  - Data changes the data type, such as orange wool being "wool:1"  
@@ -43,14 +44,14 @@ Extra:
 #### Lore ####
 ***
 Info: The lore of the item   
-Value Type: String list  
+Type: String list  
 Extra: Supports [Placeholders](#placeholders)!
 
 #### Enchantments ####
 ***
 Info: List of enchantments to give an item   
 Type: String list  
-Format: \[enchantment\]:\<level\>
+Format: \[enchantment\]:\<level\>  
 Extra: View all enchantment types here  
 
 #### Placeholders ####
