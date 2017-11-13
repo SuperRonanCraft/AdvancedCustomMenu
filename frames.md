@@ -29,12 +29,12 @@ Frames:
  - [Skull-Owner](#skull-owner)
  - [Placeholders](#placeholders)
 ***
-#### Name - *Required* ####
+- #### Name - *Required* ####
 ***
 Info: The name of the item in the specified frame  
 Extra: Supports [Placeholders](#placeholders)!
 ***
-#### Item - *Required* ####
+- #### Item - *Required* ####
 ***
 Info: The itemstack to display in the specified frame  
 Type: String or Integer  
@@ -45,20 +45,20 @@ Extra:
  - Amount can be added without altering the data with a "0" in place for data  
  - Find a list of item names [here](http://minecraft-ids.grahamedgecombe.com)  
 ***
-#### Lore ####
+- #### Lore ####
 ***
 Info: The lore of the item   
 Type: String list  
 Extra: Supports [Placeholders](#placeholders)!
 ***
-#### Enchantments ####
+- #### Enchantments ####
 *Added in 1.4.0*
 ***
 Info: List of enchantments to give an item, more enchants [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html)   
 Type: String list  
 Format: \[enchantment\]:\<level\>   
 ***
-#### Hide-Flag ####
+- #### Hide-Flag ####
 *Added in 1.4.0*
 ***
 Info: The hide flags to apply to this item  
@@ -72,14 +72,14 @@ List:
  - **16** = Potion-Effects
  - **32** = Unbreakable
 ***
-#### Skull-Owner ####
+- #### Skull-Owner ####
 *Added in 1.4.1*
 ***
 Info: The owners name of the head to show  
 Type: String  
 Extra: *This feature is highly experimental, only player names are supported as of now.*  
 ***
-#### Placeholders ####
+- #### Placeholders ####
 ***
 Info: Placeholders that can be used inside any text area within the plugin!  
 List:
