@@ -1,6 +1,7 @@
 Settings:
   ForceUpdateInventories: false # Make inventories update once the item changes, or wait for server 
   ReloadDelays: true # When reloading, should delays be reset?
+  Disable-Updater: false # Disable the update message?
 Messages:
   Prefix: '&7[&6AdvancedCustomMenu&7]'
   NoPermission: '%prefix% &cSorry! &fYou do not have permission for this command!'
