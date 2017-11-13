@@ -114,6 +114,8 @@ Click-Handlers:
   - **broadcast:** send a message to every player online
   - **give:** give a player an item *(same syntax as a frames [item](frames.md#item---required))*
   - **op:** execute a command as an operator
+  - **tellraw:** send a [json](https://www.minecraftjson.com) message to the player
+  - **tellallraw:** send a json message to *ALL* online players
 ***
 - #### Close ####
 ***
