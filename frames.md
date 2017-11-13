@@ -7,6 +7,7 @@ Frames:
   <UNIQUEID>:
     Enchantments:
     - sharpness:1
+    Hide-Flag: 63
     Name: '&aExample'
     Item: 'wool:1:64'
     Lore:
@@ -23,6 +24,7 @@ Frames:
  - [Item](#item---required)
  - [Lore](#lore)
  - [Enchantments](#enchantments) *New*
+ - [Hide-Flag](#hide---flag) *New*
  - [Placeholders](#placeholders)
 
 #### Name - *Required* ####
@@ -53,6 +55,19 @@ Info: List of enchantments to give an item
 Type: String list  
 Format: \[enchantment\]:\<level\>  
 Extra: View all enchantment types here  
+
+#### Hide-Flag ####
+***
+Info: The hide flags to apply to this item  
+Type: Integer  
+Extra: You can specify the sum of the flag id's u need, or just put **63** for all flags ;)  
+List:
+ - **1** = Attributes
+ - **2** = Destroys
+ - **4** = Enchants
+ - **8** = Placed-On
+ - **16** = Potion-Effects
+ - **32** = Unbreakable
 
 #### Placeholders ####
 ***
