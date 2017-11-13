@@ -19,6 +19,7 @@ View a menu with an example of all sections on the [Example.yml](files/Example.y
   - Supports Placeholders!
 ***
 - ### Auto-Close ###
+*Added in 1.2.1*
 ***
   Info: Amount of time in ticks to close a menu after it's been opened   
   Value Type: Integer  
