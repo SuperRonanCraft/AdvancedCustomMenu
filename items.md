@@ -30,13 +30,13 @@ Items:
 ***
 Info: The slot in which an item should be placed  
 Value Type: Integer or Valid Node  
-Extra: Can be a list of slots to put the same item in multiple slots
+Extra: Can be a list of slots to put the same item in multiple slots  
 ~~------~~  
   The available nodes are listed below:
   - **INTEGER** Any integer within the total amount of slots of a menu
   - **{first-empty}** The first valid empty slot as the inventory is filled up chronologically
   - **{random}** A random slot ignoring current items
-  - **{random_<from>_<to>}** A random slot within <from> and <to>
+  - **{random\_\<from\>\_\<to\>}** A random slot within <from> and <to>
   - *Tip*: if using string nodes, make sure to use ''s
 Example:
 ```yaml
@@ -44,7 +44,7 @@ Slot:
   - 4
   - '{first-empty}'
   - '{random}'
-  ```
+```
 ***
 - #### Frame-Delay ####
 ***
