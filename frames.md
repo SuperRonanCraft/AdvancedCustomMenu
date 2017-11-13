@@ -51,10 +51,9 @@ Extra: Supports [Placeholders](#placeholders)!
 ***
 #### Enchantments ####
 ***
-Info: List of enchantments to give an item, more enchants here(https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html)   
+Info: List of enchantments to give an item, more enchants [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html)   
 Type: String list  
-Format: \[enchantment\]:\<level\>  
-Extra: View all enchantment types here  
+Format: \[enchantment\]:\<level\>   
 ***
 #### Hide-Flag ####
 ***
