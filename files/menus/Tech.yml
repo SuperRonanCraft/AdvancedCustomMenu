@@ -37,8 +37,8 @@ Items:
     Click-Handlers:
       1:
         Sounds:
-          Basic: ''
-          Success: 'Item_totem_use:1:0.5'
-          Failed: ''
+          Basic: 'ITEM_ARMOR_EQUIP_GENERIC'
+          Success: 'ITEM_TOTEM_USE' # [sound]:<volume>:<pitch>
+          Failed: 'ENTITY_GHAST_DEATH'
         Delay: 20 # Make the player wait 20 seconds between clicks
         Delay-Message: '&eTold ya! &aYou can''t spam me!&7 Wait another {secondsleft} seconds!'
