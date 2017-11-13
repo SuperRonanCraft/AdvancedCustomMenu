@@ -51,13 +51,15 @@ Info: The lore of the item
 Type: String list  
 Extra: Supports [Placeholders](#placeholders)!
 ***
-#### Enchantments #### *Added in 1.4.0*
+#### Enchantments ####
+*Added in 1.4.0*
 ***
 Info: List of enchantments to give an item, more enchants [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html)   
 Type: String list  
 Format: \[enchantment\]:\<level\>   
 ***
-#### Hide-Flag #### *Added in 1.4.0*
+#### Hide-Flag ####
+*Added in 1.4.0*
 ***
 Info: The hide flags to apply to this item  
 Type: Integer  
@@ -70,7 +72,8 @@ List:
  - **16** = Potion-Effects
  - **32** = Unbreakable
 ***
-#### Skull-Owner #### *Added in 1.4.1*
+#### Skull-Owner ####
+*Added in 1.4.1*
 ***
 Info: The owners name of the head to show  
 Type: String  
