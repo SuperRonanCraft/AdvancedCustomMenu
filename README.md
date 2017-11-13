@@ -1,6 +1,4 @@
 # Welcome to the AdavancedCustomMenu tutorial page! #
-[![Build Status]1]
-[![GitHub release](https://img.shields.io/github/release/InventivetalentDev/AnimatedFrames.svg)](https://github.com/InventivetalentDev/AnimatedFrames/releases/latest)
 Here are the list of files you can use to get started: 
   - [Config](files/config.yml): All about the config file! Learn how make the plugin tick ;)
   - [Menus](menus.md): Learn the basics of making a beautiful interface! Learn that you can do with them
