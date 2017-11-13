@@ -24,7 +24,7 @@ Frames:
  - [Item](#item---required)
  - [Lore](#lore)
  - [Enchantments](#enchantments) *New*
- - [Hide-Flag](#hide---flag) *New*
+ - [Hide-Flag](#hide-flag) *New*
  - [Placeholders](#placeholders)
 
 #### Name - *Required* ####
