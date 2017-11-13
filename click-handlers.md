@@ -31,7 +31,7 @@ Click-Handlers:
 - [Close](#user-content-close)
 - [Delay](#delay)
 - [Delay-Message](#delay-message)
-- [Sounds](#sounds) *New*
+- [Sounds](#sounds)
 ***
 - #### Click-Type ####
 ***
@@ -144,8 +144,9 @@ Click-Handlers:
   - **{hoursleft}**: get the amount of hours left
   - **{minutesleft}**: get the amount of minutes left in the hour
   - **{secondsleft}** get the amount of seconds left in the minute
-  ***
+***
 - #### Sounds ####
+*Added in 1.4.0*
 ***
   Extra: More sounds can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html)!  
   Info: The sounds to send to a player under a specific circumstance  
