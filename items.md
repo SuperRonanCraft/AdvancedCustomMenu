@@ -29,10 +29,12 @@ Items:
 - #### Slot - *Required* ####
 ***
 Info: The slot in which an item should be placed  
-Value Type: Integer   
+Value Type: Integer or Valid String   
 Extra:   
  - The lastest item will override any previously placed items if two or more items have the same slot  
- - A slot must be less than the total slots shown in the menu to display
+ - A slot must be within the total slots menu slots
+Placeholders:
+
 ***
 - #### Frame-Delay ####
 ***
