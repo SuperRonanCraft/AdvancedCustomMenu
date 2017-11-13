@@ -145,9 +145,10 @@ Click-Handlers:
   ***
 - #### Sounds ####
 ***
-  Extra: More sounds can be found here(https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html)!  
-  Info: The sounds to send to a player under a specific circumstance    
-  Default Value: null  
+  Extra: More sounds can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html)!  
+  Info: The sounds to send to a player under a specific circumstance  
+  Format: \[Sound\]:\<volume\>:\<pitch\>  
+  Extra: Volume and Pitch can be a double (Ex: '0.3' or '0.7')  
   Value Type: Key List  
   ~~----------~~  
   Types:  
