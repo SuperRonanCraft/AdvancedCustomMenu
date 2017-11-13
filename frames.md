@@ -14,6 +14,7 @@ Frames:
     - '&764 orange wool!'
   <UNIQUEID>:
     Name: '&aExample#2'
+    Skull-Owner: '%player_name%'
     Item: 'wool:14:32'
     Lore:
     - '&732 red wool!'
@@ -23,8 +24,9 @@ Frames:
  - [Name](#name---required)
  - [Item](#item---required)
  - [Lore](#lore)
- - [Enchantments](#enchantments) *New*
- - [Hide-Flag](#hide-flag) *New*
+ - [Enchantments](#enchantments)
+ - [Hide-Flag](#hide-flag)
+ - [Skull-Owner](#skull-owner)
  - [Placeholders](#placeholders)
 ***
 #### Name - *Required* ####
@@ -49,13 +51,13 @@ Info: The lore of the item
 Type: String list  
 Extra: Supports [Placeholders](#placeholders)!
 ***
-#### Enchantments ####
+#### Enchantments #### *Added in 1.4.0*
 ***
 Info: List of enchantments to give an item, more enchants [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html)   
 Type: String list  
 Format: \[enchantment\]:\<level\>   
 ***
-#### Hide-Flag ####
+#### Hide-Flag #### *Added in 1.4.0*
 ***
 Info: The hide flags to apply to this item  
 Type: Integer  
@@ -67,6 +69,12 @@ List:
  - **8** = Placed-On
  - **16** = Potion-Effects
  - **32** = Unbreakable
+***
+#### Skull-Owner #### *Added in 1.4.1*
+***
+Info: The owners name of the head to show  
+Type: String  
+Extra: *This feature is highly experimental, only player names are supported as of now.*  
 ***
 #### Placeholders ####
 ***
