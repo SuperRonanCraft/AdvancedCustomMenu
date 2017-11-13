@@ -26,12 +26,12 @@ Frames:
  - [Enchantments](#enchantments) *New*
  - [Hide-Flag](#hide-flag) *New*
  - [Placeholders](#placeholders)
-
+***
 #### Name - *Required* ####
 ***
 Info: The name of the item in the specified frame  
 Extra: Supports [Placeholders](#placeholders)!
-
+***
 #### Item - *Required* ####
 ***
 Info: The itemstack to display in the specified frame  
@@ -42,20 +42,20 @@ Extra:
  - Data changes the data type, such as orange wool being "wool:1"  
  - Amount can be added without altering the data with a "0" in place for data  
  - Find a list of item names [here](http://minecraft-ids.grahamedgecombe.com)  
-
+***
 #### Lore ####
 ***
 Info: The lore of the item   
 Type: String list  
 Extra: Supports [Placeholders](#placeholders)!
-
+***
 #### Enchantments ####
 ***
-Info: List of enchantments to give an item   
+Info: List of enchantments to give an item, more enchants here(https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html)   
 Type: String list  
 Format: \[enchantment\]:\<level\>  
 Extra: View all enchantment types here  
-
+***
 #### Hide-Flag ####
 ***
 Info: The hide flags to apply to this item  
@@ -68,7 +68,7 @@ List:
  - **8** = Placed-On
  - **16** = Potion-Effects
  - **32** = Unbreakable
-
+***
 #### Placeholders ####
 ***
 Info: Placeholders that can be used inside any text area within the plugin!  
