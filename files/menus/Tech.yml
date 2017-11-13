@@ -35,5 +35,10 @@ Items:
         Lore:
         - '&4&lTry to spam me!'
     Click-Handlers:
-      Delay: 20 # Make the player wait 20 seconds between clicks
-      Delay-Message: '&eTold ya! &aYou can''t spam me!&7 Wait another {secondsleft} seconds!'
+      1:
+        Sounds:
+          Basic: ''
+          Success: 'Item_totem_use:1:0.5'
+          Failed: ''
+        Delay: 20 # Make the player wait 20 seconds between clicks
+        Delay-Message: '&eTold ya! &aYou can''t spam me!&7 Wait another {secondsleft} seconds!'
