@@ -40,5 +40,7 @@ Items:
           Basic: 'ITEM_ARMOR_EQUIP_GENERIC'
           Success: 'ITEM_TOTEM_USE' # [sound]:<volume>:<pitch>
           Failed: 'ENTITY_GHAST_DEATH'
+        Commands:
+        - 'tellraw: [{"text":"You can''t spam me!","color":"red","underlined":true},{"text":" But heres something cool","color":"gold","underlined":false},{"text":" Diamonds!","color":"aqua","italic":true,"clickEvent":{"action":"run_command","value":"I love Diamonds!"},"hoverEvent":{"action":"show_item","value":["{id:\"minecraft:diamond\",Count:1b,tag:{display:{Name:\"§b§lDIAMOND\"}},Damage:0s}"]},"underlined":false}]'
         Delay: 20 # Make the player wait 20 seconds between clicks
         Delay-Message: '&eTold ya! &aYou can''t spam me!&7 Wait another {secondsleft} seconds!'
