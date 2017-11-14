@@ -79,18 +79,22 @@ Valid Entries:
 *Added in 1.4.1*
 ***
 Info: The owners name of the head to show  
-Extra: Supports Placeholders  
+Extra:
+ - Supports Placeholders  
+ - Will replace current item with a skull (if invalid)  
 Disclaimer: *This feature is highly experimental, only player names are supported as of now.*  
 ***
 - #### Egg-Type ####
 *Added in 1.4.3*
 ***
-Info: The entity egg type, view valid entity types [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html)  
+Info: The entity egg type, view valid entity types [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html)
+Extra: Will replace current item with a spawn egg (if invalid)
 ***
 - #### Color ####
 *Added in 1.4.3*
 ***
 Info: The color to give a leather armor, get color codes [here](https://minecraftcommand.science/armor-generator)  
+Extra: Will replace current item (if invalid) with a random armor piece  
 Disclaimer: There is *no* way of removing the color indicator, as it is client side!  
 Valid Entries:
  - **\<red\>, \<green\>, \<blue\>** Each color ranges from 0 to 255
