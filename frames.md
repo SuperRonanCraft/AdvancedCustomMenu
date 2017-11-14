@@ -27,6 +27,7 @@ Frames:
  - [Enchantments](#enchantments)
  - [Hide-Flag](#hide-flag)
  - [Skull-Owner](#skull-owner)
+ - [Egg-Type](#egg-type)
  - [Placeholders](#placeholders)
 ***
 - #### Name - *Required* ####
@@ -78,6 +79,12 @@ List:
 Info: The owners name of the head to show  
 Type: String  
 Extra: *This feature is highly experimental, only player names are supported as of now.*  
+***
+- #### Egg-Type ####
+*Added in 1.4.3*
+***
+Info: The entity egg type, view valid entity types [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html)  
+Type: String  
 ***
 - #### Placeholders ####
 ***
