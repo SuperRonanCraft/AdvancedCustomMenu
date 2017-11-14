@@ -116,6 +116,7 @@ Click-Handlers:
   - **op:** execute a command as an operator
   - **tellraw:** send a [json](https://www.minecraftjson.com) message to the player
   - **tellallraw:** send a json message to *ALL* online players
+  - **banner:** give a banner with the specified [pattern](frames.md#banner-pattern)
 ***
 - #### Close ####
 ***
