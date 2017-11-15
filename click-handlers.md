@@ -68,14 +68,17 @@ Click-Handlers:
 - #### Price-Message ####
 ***
   Info: The message to send when the player does not have enough [Price](#user-content-price)  
-  Extra: Supports placeholders *(Unique "%price%" placeholder to display the price automatically)*  
   Default Value: null  
   Value Type: String List  
+  Example:
   ```yaml
   Price: 'donator.epic'
   Price-Message:
   - '&cSorry %player_name%! &7You must have atleast $%price% to buy this!'
   ```
+  Extra:  
+   - Supports [placeholders](#api/placeholders.md)  
+   - **%price%** Display the price of the click-handler  
 ***
 - #### Permission ####
 ***
@@ -88,7 +91,7 @@ Click-Handlers:
 ***
   Info: The message to send when the player does not have [Permission](#user-content-permission)  
   Default value: Default "NoPermission" message  
-  Extra: Supports placeholders  
+  Extra: Supports [placeholders](#api/placeholders.md)  
   Value Type: String List  
   ~~------~~  
   Example:
@@ -100,9 +103,9 @@ Click-Handlers:
 ***  
 - #### Commands ####
 ***
-  Info: List, supports placeholders  
+  Info: List of commands to execute once a click-handler passed succesfully  
   Execution: If the player has passed all the above click handlers  
-  Extra: Supports placeholders   
+  Extra: Supports [placeholders](#api/placeholders.md)   
   Value Type: List String  
   ~~------~~  
   You can start off a command with any of the following to execute a special event to a player
