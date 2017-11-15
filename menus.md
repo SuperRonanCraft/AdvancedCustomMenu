@@ -4,6 +4,7 @@ View a menu with an example of all sections on the [Example.yml](files/Example.y
 ***
 ### Summary ###
   - [Title](#title---required)
+  - [Menu-Item](#menu-item)
   - [Auto-Close](#auto-close)
   - [Frame-Delay](#frame-delay)
   - [Type](#type)
@@ -18,6 +19,12 @@ View a menu with an example of all sections on the [Example.yml](files/Example.y
   Extra:  
   - Animateable if multiple lines are applied  
   - Supports Placeholders!
+***
+- ### Menu-Item ###
+***
+  Info: The item to open the menu with  
+  Value Type: Section of Keys  
+  Extra: Learn how to create a valid [menu-item](#menu-item.md) on the wiki
 ***
 - ### Auto-Close ###
 *Added in 1.2.1*
