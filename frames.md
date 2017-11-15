@@ -30,6 +30,8 @@ Frames:
  - [Egg-Type](#egg-type)
  - [Color](#color)
  - [Banner-Pattern](#banner-pattern)
+ - [Potion-Effect](#potion-effect)
+ - [Arrow-Effect](#arrow-effect)
  - [Placeholders](#placeholders)
 ***
 - #### Name - *Required* ####
@@ -101,17 +103,17 @@ Valid Entries:
  - **\<raw rgb\>** The raw color value, such as '16711680' for red
  - **#RRGGBB** R, G and B range from 0-9 and A-F
 ***
-- #### Arrow-Effect ####
-*Added in 1.4.4*
-***
-Info: The potion effect to add to a tipper arrow, get potion effects [here](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)  
-Extra: Will replace current item (if invalid) with a tipped arrow  
-***
 - #### Potion-Effect ####
 *Added in 1.4.4*
 ***
 Info: The potion effect to add to a potion item, get potion effects [here](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)  
 Extra: Will replace current item (if invalid) with a random potion  
+***
+- #### Arrow-Effect ####
+*Added in 1.4.4*
+***
+Info: The potion effect to add to a tipper arrow, get potion effects [here](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)  
+Extra: Will replace current item (if invalid) with a tipped arrow  
 ***
 - #### Placeholders ####
 ***
