@@ -30,8 +30,6 @@ Frames:
  - [Egg-Type](#egg-type)
  - [Color](#color)
  - [Banner-Pattern](#banner-pattern)
- - [Potion-Effect](#potion-effect)
- - [Arrow-Effect](#arrow-effect)
  - [Placeholders](#placeholders)
 ***
 - #### Name - *Required* ####
@@ -95,25 +93,13 @@ Extra: Will replace current item with a spawn egg (if invalid)
 - #### Color ####
 *Added in 1.4.3*
 ***
-Info: The color to give a leather armor, get color codes [here](https://minecraftcommand.science/armor-generator)  
-Extra: Will replace current item (if invalid) with a random armor piece  
+Info: The color to give leather armor, tipped arrows or potions, generate color codes [here](https://minecraftcommand.science/armor-generator)  
+Extra: Will replace current item (if invalid) with a random valid item  
 Disclaimer: There is *no* way of removing the color indicator, as it is client side!  
 Valid Entries:
  - **\<red\>, \<green\>, \<blue\>** Each color ranges from 0 to 255
  - **\<raw rgb\>** The raw color value, such as '16711680' for red
  - **#RRGGBB** R, G and B range from 0-9 and A-F
-***
-- #### Potion-Effect ####
-*Added in 1.4.4*
-***
-Info: The potion effect to add to a potion item, get potion effects [here](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)  
-Extra: Will replace current item (if invalid) with a random potion  
-***
-- #### Arrow-Effect ####
-*Added in 1.4.4*
-***
-Info: The potion effect to add to a tipper arrow, get potion effects [here](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)  
-Extra: Will replace current item (if invalid) with a tipped arrow  
 ***
 - #### Placeholders ####
 ***
