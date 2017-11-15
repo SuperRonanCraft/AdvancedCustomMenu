@@ -37,13 +37,13 @@ View a menu with an example of all sections on the [Example.yml](files/Example.y
 ***
 - ### Type ###
 ***
-  Info: The kind of inventory type to display   
+  Info: The kind of inventory type to display  
+  Default Value: CHEST  
   Value Types:
   - **Chest** If the type is a chest, look at [rows](#rows)
   - **Dispenser** Create an dispenser inventory *(9 slots)*
   - **Dropper** Create an dropper inventory *(9 slots)*
-  - **Hopper** Create an hopper inventory *(5 slots)*  
-  Default Value: CHEST 
+  - **Hopper** Create an hopper inventory *(5 slots)*   
 ***
 - ### Rows ###
 ***
