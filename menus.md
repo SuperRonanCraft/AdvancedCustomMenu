@@ -6,7 +6,8 @@ View a menu with an example of all sections on the [Example.yml](files/Example.y
   - [Title](#title---required)
   - [Auto-Close](#auto-close)
   - [Frame-Delay](#frame-delay)
-  - [Rows](#rows---required)
+  - [Type](#type)
+  - [Rows](#rows)
   - [Commands](#commands)
   - [Items](#items)
 ***
@@ -34,7 +35,17 @@ View a menu with an example of all sections on the [Example.yml](files/Example.y
   Value Type: Integer  
   Default Value: 20
 ***
-- ### Rows - *Required*
+- ### Type ###
+***
+  Info: The kind of inventory type to display   
+  Value Types:
+  - **Chest** If the type is a chest, look at [rows](#rows)
+  - **Dispenser** Create an dispenser inventory *(9 slots)*
+  - **Dropper** Create an dropper inventory *(9 slots)*
+  - **Hopper** Create an hopper inventory *(5 slots)*
+  Default Value: CHEST 
+***
+- ### Rows ###
 ***
   Info: The amount of rows a menu should display  
   Value Type: Integer  
