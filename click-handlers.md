@@ -83,6 +83,7 @@ Click-Handlers:
    - **%price%** Display the price of the click-handler  
 ***
 - #### Points ####
+*Added in 2.1.2*
 ***
   Info: The amount of points required for the handler to execute commands  
   Execution: After [Delay](#delay) if passed successfully  
