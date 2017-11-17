@@ -106,20 +106,21 @@ Click-Handlers:
   Info: List of commands to execute once a click-handler passed succesfully  
   Execution: If the player has passed all the above click handlers  
   Extra: Supports [placeholders](#api/placeholders.md)   
-  Value Type: List String  
+  Value Type: List Strings  
   ~~------~~  
   You can start off a command with any of the following to execute a special event to a player
-  - **server:** connect a player to a specific bungeecord server
-  - **player:** execute the command as the player *(Default)*
-  - **console:** execute the command as console
-  - **chat:** make the player send a chat message
-  - **message:** send a message to the player
-  - **broadcast:** send a message to every player online
-  - **give:** give a player an item *(same syntax as a frames [item](frames.md#item---required))*
-  - **op:** execute a command as an operator
-  - **tellraw:** send a [json](https://www.minecraftjson.com) message to the player
-  - **tellallraw:** send a json message to *ALL* online players
-  - **banner:** give a banner with the specified [pattern](frames.md#banner-pattern)
+  - **menu: \<menu name without '.yml'\>** Open another menu without using "/acm open \<menu\>"
+  - **server: \<server\>** Connect a player to a specific bungeecord server
+  - **player: \<command\>** Execute the command as the player *(Default)*
+  - **console: \<command\>** Execute the command as console
+  - **chat: \<message\>** Make the player send a chat message
+  - **message: \<message\>** Send a chat message to the player
+  - **broadcast: \<message\>** Send a message to every player online
+  - **give: \<item\>** Give a player an item *(same syntax as a frames [item](frames.md#item---required))*
+  - **op: \<command\>** Execute a command as an operator
+  - **tellraw: \<json message\>** Send a [json](https://www.minecraftjson.com) message to the player
+  - **tellallraw: \<json message\>** Send a json message to *ALL* online players
+  - **banner: \<banner-pattern\>** Give a banner with the specified [pattern](frames.md#banner-pattern)
 ***
 - #### Close ####
 ***
