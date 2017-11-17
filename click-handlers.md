@@ -21,14 +21,16 @@ Click-Handlers:
       Failed: 'ENTITY_GHAST_DEATH'
 ```
 ### Summary ###
-- [Click-Type](#user-content-click-type)
-- [Shift](#user-content-shift)
-- [Price](#user-content-price)
-- [Price-Message](#user-content-price-message)
-- [Permission](#user-content-permission)
-- [Permission-Message](#user-content-permission-message)
-- [Commands](#user-content-commands)
-- [Close](#user-content-close)
+- [Click-Type](#click-type)
+- [Shift](#shift)
+- [Price](#price)
+- [Price-Message](#price-message)
+- [Points](#price)
+- [Points-Message](#price-message)
+- [Permission](#permission)
+- [Permission-Message](#permission-message)
+- [Commands](#commands)
+- [Close](#close)
 - [Delay](#delay)
 - [Delay-Message](#delay-message)
 - [Sounds](#sounds)
@@ -61,8 +63,8 @@ Click-Handlers:
 - #### Price ####
 ***
   Info: The amount of Vault money required for the handler to execute commands  
-  Execution: After [Shift](#user-content-shift) if passed successfully  
-  Extra: Vault and an economy plugin need to be enabled!  
+  Execution: After [Delay](#delay) if passed successfully  
+  Extra: [Vault](https://www.spigotmc.org/resources/vault.41918/) and an economy plugin like [Essentials](https://hub.spigotmc.org/jenkins/job/spigot-essentials/) needed to be enabled!  
   Value Type: Integer  
 ***
 - #### Price-Message ####
@@ -72,13 +74,35 @@ Click-Handlers:
   Value Type: String List  
   Example:
   ```yaml
-  Price: 'donator.epic'
+  Price: 100
   Price-Message:
   - '&cSorry %player_name%! &7You must have atleast $%price% to buy this!'
   ```
   Extra:  
    - Supports [placeholders](#api/placeholders.md)  
    - **%price%** Display the price of the click-handler  
+***
+- #### Points ####
+***
+  Info: The amount of points required for the handler to execute commands  
+  Execution: After [Delay](#delay) if passed successfully  
+  Extra: [PlayerPoints](https://dev.bukkit.org/projects/playerpoints) need to be enabled!  
+  Value Type: Integer  
+***
+- #### Points-Message ####
+***
+  Info: The message to send when the player does not have enough [Price](#user-content-price)  
+  Default Value: null  
+  Value Type: String List  
+  Example:
+  ```yaml
+  Points: 25
+  Price-Message:
+  - '&cSorry %player_name%! &7You must have atleast $%points% to buy this!'
+  ```
+  Extra:  
+   - Supports [placeholders](#api/placeholders.md)  
+   - **%points%** Display the points of the click-handler  
 ***
 - #### Permission ####
 ***
