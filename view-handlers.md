@@ -4,11 +4,13 @@ Info: View handlers help you be able to block players from even viewing an item 
 ```yaml
 View-Handlers:
   Permission: 'example.savage'
-  Balance: 50
+  Price: 50
+  Points: 25
 ```
 ### Summary ###
 - [Permission](#permission)
-- [Balance](#balance)
+- [Price](#price)
+- [Points](#points)
 
 ***
 - #### Permission ####
@@ -17,9 +19,16 @@ View-Handlers:
   Default Value: none  
   Extra:
     - Use '-' to have a player NOT have the permission to view
-  
 ***
-- #### Balance ####
+- #### Price ####
 ***
-  Info: The amount of *money* a player must have in their account to view an item    
-  Default Value: none   
+  Info: The amount of *money* a player must have in their account to view an item  
+  Extra: [Vault](https://www.spigotmc.org/resources/vault.41918/) and an economy plugin like [Essentials](https://hub.spigotmc.org/jenkins/job/spigot-essentials/) needed to be enabled!  
+  Default Value: 0 
+***
+- #### Points ####
+*Added in 2.1.2*
+***
+  Info: The amount of points a player must have in their account to view an item  
+  Extra: [PlayerPoints](https://dev.bukkit.org/projects/playerpoints) need to be enabled!  
+  Default Value: 0 
