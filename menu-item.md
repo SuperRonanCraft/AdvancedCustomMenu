@@ -13,6 +13,7 @@ Create/Identify the item which to open the menu with
   - [Banner-Pattern](#banner-pattern)
   - [Give-Join](#give-join)
   - [Give-Slot](#give-slot)
+  - [Give-Delay](#give-delay)
   - [Ignore-Amount](#rows)
   - [Ignore-Durability](#commands)
   - [Ignore-Meta](#items)
@@ -96,6 +97,12 @@ Valid Entries:
 - ### Give-Slot ###
 ***
   Info: The slot which to give the menu item on  
+  Value Type: Integer
+***
+- ### Give-Delay ###
+*Added in 2.1.7*
+***
+  Info: The amount of time (in seconds) to delay giving the item to a player  
   Value Type: Integer
 ***
 - ### Ignore-Amount ###
