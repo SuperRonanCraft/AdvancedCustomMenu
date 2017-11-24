@@ -1,5 +1,20 @@
 # Menu-Item #
 Create/Identify the item which to open the menu with  
+```yaml
+Menu-Item:
+  Name: 'Name of item'
+  Item: 'watch'
+  Lore:
+  - '&7Line #1'
+  Enchantments:
+  - 'arrow_infinity:1'
+  Hide-Flag: 63
+  Give-Join: true
+  Give-Join: 0
+  Ignore-Amount: true
+  Ignore-Durability: true
+  Ignore-Meta: true
+```
 ***
 ### Summary ###
   - [Item](#item)

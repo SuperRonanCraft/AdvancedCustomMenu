@@ -1,6 +1,19 @@
 # Menus #
 The fudamental reason you have this plugin installed!  
 View a menu with an example of all sections on the [Example.yml](files/Example.yml) file
+```yaml
+Title:
+- '&2Title #1'
+- '&aTitle #2'
+Frame-Delay: 20
+Type: 'chest'
+Rows: 4
+Commands: 'example; ex'
+Menu-Item:
+  <See menu-item.md for infos>
+Items:
+  <See items.md for infos>
+```
 ***
 ### Summary ###
   - [Title](#title---required)
