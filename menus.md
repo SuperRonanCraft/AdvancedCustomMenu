@@ -10,9 +10,9 @@ Type: 'chest'
 Rows: 4
 Commands: 'example; ex'
 Menu-Item:
-  <See menu-item.md for infos>
+  <See menu-item.md for info>
 Items:
-  <See items.md for infos>
+  <See items.md for info>
 ```
 ***
 ### Summary ###
