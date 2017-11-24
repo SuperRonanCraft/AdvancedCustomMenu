@@ -10,7 +10,10 @@ Menu-Item:
   - 'arrow_infinity:1'
   Hide-Flag: 63
   Give-Join: true
-  Give-Join: 0
+  Give-Slot: 0
+  Give-Delay: 0
+  Item-Move: true
+  Item-Drop: true
   Ignore-Amount: true
   Ignore-Durability: true
   Ignore-Meta: true
