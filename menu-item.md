@@ -14,6 +14,7 @@ Create/Identify the item which to open the menu with
   - [Give-Join](#give-join)
   - [Give-Slot](#give-slot)
   - [Give-Delay](#give-delay)
+  - [Move-Item](#move-item)
   - [Ignore-Amount](#rows)
   - [Ignore-Durability](#commands)
   - [Ignore-Meta](#items)
@@ -104,6 +105,20 @@ Valid Entries:
 ***
   Info: The amount of time (in seconds) to delay giving the item to a player  
   Value Type: Integer
+***
+- ### Item-Move ###
+*Added in 2.1.7*
+***
+  Info: Allow a player to *move* the menu-item around their inventory  
+  Value Type: Boolean  
+  Default: true
+***
+- ### Item-Drop ###
+*Added in 2.1.7*
+***
+  Info: Allow a player to *drop* the menu-item on the ground  
+  Value Type: Boolean  
+  Default: true
 ***
 - ### Ignore-Amount ###
 ***
