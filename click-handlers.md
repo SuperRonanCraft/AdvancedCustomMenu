@@ -8,7 +8,11 @@ Click-Handlers:
     Commands:
     - 'me I am awesome!'
     Price: 10
-    Price-Message: '%prefix% &7Seems like you are not rich enough to be awesome'
+    Price-Message: '%prefix% &7Seems like you are not rich enough to be awesome, you must have $%price%!'
+    Points: 100
+    Points-Message: '%prefix% &7Seems like you don''t have %points% points to use this!'
+    Experience: 10L
+    Experience-Message: '%prefix% &cWhoops! &7Seems like you are not ''experienced'' enough ;) You must have atleast %experience% experience!'
     Permission: 'example.savage'
     Permission-Message: '%prefix% &cLooks like you are not savage enough to use this command!'
     Close: true
@@ -29,6 +33,8 @@ Click-Handlers:
 - [Points-Message](#points-message)
 - [Permission](#permission)
 - [Permission-Message](#permission-message)
+- [Experience](#permission)
+- [Experience-Message](#permission-message)
 - [Commands](#commands)
 - [Close](#close)
 - [Delay](#delay)
@@ -69,8 +75,8 @@ Click-Handlers:
 ***
 - #### Price-Message ####
 ***
-  Info: The message to send when the player does not have enough [Price](#user-content-price)  
-  Default Value: null  
+  Info: The message to send when the player does not have enough [Price](#price)  
+  Default Value: [config message](#config.md)  
   Value Type: String List  
   Example:
   ```yaml
@@ -92,8 +98,31 @@ Click-Handlers:
 ***
 - #### Points-Message ####
 ***
-  Info: The message to send when the player does not have enough [Price](#user-content-price)  
-  Default Value: null  
+  Info: The message to send when the player does not have enough [Points](#points)  
+  Default Value: [config message](#config.md)  
+  Value Type: String List  
+  Example:
+  ```yaml
+  Points: 25
+  Price-Message:
+  - '&cSorry %player_name%! &7You must have atleast $%points% to buy this!'
+  ```
+  Extra:  
+   - Supports [placeholders](#api/placeholders.md)  
+   - **%points%** Display the points of the click-handler  
+***
+- #### Experience ####
+*Added in 2.2.0*
+***
+  Info: The amount of experience points required for the handler to execute commands  
+  Execution: After [Delay](#delay) if passed successfully  
+  Extra: It can be an integer like "17" or "4", but you can add an "L" *(ex:"10L")* for levels!  
+  Value Type: Float  
+***
+- #### Experience-Message ####
+***
+  Info: The message to send when the player does not have enough [Experience](#experience)  
+  Default Value: [config message](#config.md)  
   Value Type: String List  
   Example:
   ```yaml
