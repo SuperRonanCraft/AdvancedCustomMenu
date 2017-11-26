@@ -4,7 +4,7 @@ Info: Each frame must be in it's own section under "Frames"
 Example:
 ```yaml
 Frames:
-  <UNIQUEID>:
+  <UNIQUEID>: # Anything such as 1, 2, 3 or one, two, three.
     Enchantments:
     - 'sharpness:1'
     - 'damage_all:5'
