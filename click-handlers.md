@@ -126,13 +126,13 @@ Click-Handlers:
   Value Type: String List  
   Example:
   ```yaml
-  Points: 25
-  Price-Message:
-  - '&cSorry %player_name%! &7You must have atleast $%points% to buy this!'
+  Experience: 10L #Takes 10 Levels, and not 10 Exp points
+  Experience-Message:
+  - '&cSorry %player_name%! &7You must have atleast %experience% Exp to buy this!'
   ```
   Extra:  
    - Supports [placeholders](#api/placeholders.md)  
-   - **%points%** Display the points of the click-handler  
+   - **%experience%** Display the points of the click-handler  
 ***
 - #### Permission ####
 ***
