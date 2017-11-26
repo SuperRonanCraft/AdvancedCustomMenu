@@ -6,18 +6,29 @@ Example:
 Frames:
   <UNIQUEID>:
     Enchantments:
-    - sharpness:1
+    - 'sharpness:1'
+    - 'damage_all:5'
     Hide-Flag: 63
-    Name: '&aExample'
+    Name: '&6Hidden enchantments!'
     Item: 'wool:1:64'
     Lore:
-    - '&764 orange wool!'
+    - '&764 sharpened orange wool!'
   <UNIQUEID>:
-    Name: '&aExample#2'
+    Name: '&r%player_name%''s Head!'
     Skull-Owner: '%player_name%'
-    Item: 'wool:14:32'
-    Lore:
-    - '&732 red wool!'
+    Item: 'skull_item:3'
+  <UNIQUEID>:
+    Name: '&1&lCreeper Egg!'
+    Egg-Type: 'creeper'
+    Item: 'spawn_egg'
+  <UNIQUEID>:
+    Name: '&cRed Arrow!'
+    Color: '#ff0000'
+    Item: 'tipped_arrow'
+  <UNIQUEID>:
+    Name: '&eTrump Wall!'
+    Banner-Pattern: 'haoqlLdebj'
+    Item: 'banner'
 ```
 ***
 ### Summary ###
