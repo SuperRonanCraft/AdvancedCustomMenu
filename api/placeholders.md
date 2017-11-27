@@ -25,7 +25,7 @@ The AdvancedCustomItemAPI allows for placeholders in almost every text field!
 ***
 - #### PlaceholderAPI ###
 ***
-  Info: Any placeholder from the [PlaceholderAPI](https://www.spigotmc.org/wiki/placeholderapi-placeholders/) from [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) plugin, if installed
+  Info: Any placeholder from the [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) plugin *(if installed)*
 
 ##### Legend: #####
    \* = *Warning!* If using these, lines that require a value such as the name of an item or such, this will remove the line, making the title nulled, only use this in an items Lore!
