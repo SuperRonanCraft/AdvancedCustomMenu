@@ -15,7 +15,7 @@ The AdvancedCustomItemAPI allows for placeholders in almost every text field!
   - \***{cords: x1=\<x1\> x2=\<x2\>, y1=\<x1\> y2=\<x2\>, z1=\<x1\> z2=\<x2\>}**: If a player is within every coordinate specified, such as "{cords: x1=100 x2=500}". There MUST be a pair of x's, y's or z's! (Error log if lines are incorrect)
 ***
 - #### Expressions ####
-*Added in 1.2.0*
+*Added in 1.2.1*
 ***
   Info: Placeholders that can be used inside any text area within the plugin!  
   Examples:
