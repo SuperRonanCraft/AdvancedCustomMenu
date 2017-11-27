@@ -40,6 +40,7 @@ Click-Handlers:
 - [Delay](#delay)
 - [Delay-Message](#delay-message)
 - [Sounds](#sounds)
+
 ***
 - #### Click-Type ####
 ***
@@ -53,7 +54,6 @@ Click-Handlers:
   - **left** player must left click
   - **right** player must right click
   - **middle** player must middle click
-  
 ***
 - #### Shift ####
 ***
@@ -70,8 +70,10 @@ Click-Handlers:
 ***
   Info: The amount of Vault money required for the handler to execute commands  
   Execution: After [Delay](#delay) if passed successfully  
-  Extra: [Vault](https://www.spigotmc.org/resources/vault.41918/) and an economy plugin like [Essentials](https://hub.spigotmc.org/jenkins/job/spigot-essentials/) needed to be enabled!  
   Value Type: Integer  
+  Extra:
+   - Supports [placeholders](#api/placeholders.md)!  
+   - [Vault](https://www.spigotmc.org/resources/vault.41918/) and an economy plugin like [Essentials](https://hub.spigotmc.org/jenkins/job/spigot-essentials/) needed to be enabled!  
 ***
 - #### Price-Message ####
 ***
@@ -93,8 +95,10 @@ Click-Handlers:
 ***
   Info: The amount of points required for the handler to execute commands  
   Execution: After [Delay](#delay) if passed successfully  
-  Extra: [PlayerPoints](https://dev.bukkit.org/projects/playerpoints) need to be enabled!  
   Value Type: Integer  
+  Extra:
+   - Supports [placeholders](#api/placeholders.md)  
+   - [PlayerPoints](https://dev.bukkit.org/projects/playerpoints) need to be enabled!  
 ***
 - #### Points-Message ####
 ***
@@ -137,9 +141,11 @@ Click-Handlers:
 - #### Permission ####
 ***
   Info: The permission required to use this click handler  
-  Execution: After [Price](#user-content-price)
-  Extra: Use a '-' to not require the permission
-  Value Type: String
+  Execution: After [Price](#user-content-price)  
+  Value Type: String  
+  Extra:  
+   - Supports [placeholders](#api/placeholders.md)
+   - Use a '-' to not require the permission
 ***
 - #### Permission-Message ####
 ***
