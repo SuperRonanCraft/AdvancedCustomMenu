@@ -167,20 +167,20 @@ Click-Handlers:
   Execution: If the player has passed all the above click handlers  
   Extra: Supports [placeholders](#api/placeholders.md)   
   Value Type: List Strings  
-  ~~------~~  
-  You can start off a command with any of the following to execute a special event to a player
-  - **menu: \<menu name without '.yml'\>** Open another menu without using "/acm open \<menu\>"
-  - **server: \<server\>** Connect a player to a specific bungeecord server
-  - **player: \<command\>** Execute the command as the player *(Default)*
-  - **console: \<command\>** Execute the command as console
-  - **chat: \<message\>** Make the player send a chat message
-  - **message: \<message\>** Send a chat message to the player
-  - **broadcast: \<message\>** Send a message to every player online
-  - **give: \<item\>** Give a player an item *(same syntax as a frames [item](frames.md#item---required))*
-  - **op: \<command\>** Execute a command as an operator
-  - **tellraw: \<json message\>** Send a [json](https://www.minecraftjson.com) message to the player
-  - **tellallraw: \<json message\>** Send a json message to *ALL* online players
-  - **banner: \<banner-pattern\>** Give a banner with the specified [pattern](frames.md#banner-pattern)
+  Command Types:  
+  You can start off a command with any of the following to execute a special command to/from a player
+  - '**menu: \<menu name without '.yml'\>**' Open another menu without using "/acm open \<menu\>"
+  - '**server: \<server\>**' Connect a player to a specific bungeecord server
+  - '**player: \<command\>**' Execute the command as the player *(Default)*
+  - '**console: \<command\>**' Execute the command as console
+  - '**chat: \<message\>**' Make the player send a chat message
+  - '**message: \<message\>**' Send a chat message to the player
+  - '**broadcast: \<message\>**' Send a message to every player online
+  - '**give: \<item\>**' Give a player an item *(same syntax as a frames [item](frames.md#item---required))*
+  - '**op: \<command\>**' Execute a command as an operator
+  - '**tellraw: \<json message\>**' Send a [json](https://www.minecraftjson.com) message to the player
+  - '**tellallraw: \<json message\>**' Send a json message to *ALL* online players
+  - '**banner: \<banner-pattern\>**' Give a banner with the specified [pattern](frames.md#banner-pattern)
 ***
 - #### Close ####
 ***
