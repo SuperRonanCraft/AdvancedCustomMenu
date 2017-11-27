@@ -9,3 +9,6 @@ Messages:
   NotExist: '%prefix% &cThe menu &e%menu%&c does not exist!'
   Invalid: '%prefix% &cWhoops! &7Invalid argument, try &e/%command% help&7!'
   Price: '%prefix% &cSorry! &7You must have atleast &f$%price% &7to us this!' # Added in 1.2.1
+  Points: '%prefix% &cSorry! &7You must have atleast &f%points% &7to use this!' # Added in 2.2.0
+  Experience: '%prefix% &cSorry! &7You must have atleast &f%experience% &7points to use this!' # Added in 2.2.0
+  Delay: '%prefix% &cSorry! You must wait atleast {secondsleft} to use this item again!' # Added in 2.2.0
