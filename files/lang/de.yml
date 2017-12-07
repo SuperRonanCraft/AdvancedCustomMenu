@@ -42,5 +42,6 @@ Help:
   Item:
     Self: '&7- &6/%command% item <menu>&7: Gib dir selber ein Menu-Item!'
     Other: '&7- &6/%command% item <menu> [Argumente]&7: Gib dir selber oder jemand anderem das Menu-Item!'
+  List: '&7- &6/%command% list&7: Listen Sie alle verfügbaren Menüs auf'
   Suffix:
   - '&e-------------------------------'
