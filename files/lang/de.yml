@@ -32,7 +32,7 @@ Usage:
   Open: '&cVerwendung: /%command% open <menu> [Argumente]'
   Item:
     Self: '&cVerwendung: /%command% item <menu>'
-    Other: '&7Verwendung: /%command% item <menu> [Spieler]'
+    Other: '&cVerwendung: /%command% item <menu> [Spieler]'
 
 Help:
   Prefix:

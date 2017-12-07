@@ -29,10 +29,10 @@ Messages:
     None: '%prefix% &7¡Parece que no hay menús disponibles!'
 
 Usage:
-  Open: '&cUsage: /%command% open <menu> [argumentos]'
+  Open: '&cUso: /%command% open <menu> [argumentos]'
   Item:
-    Self: '&cUsage: /%command% item <menu>'
-    Other: '&7Usage: /%command% item <menu> [jugador]'
+    Self: '&cUso: /%command% item <menu>'
+    Other: '&cUso: /%command% item <menu> [jugador]'
 
 Help:
   Prefix:
