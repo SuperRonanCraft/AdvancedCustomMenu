@@ -1,0 +1,46 @@
+Messages:
+  Prefix: '&7[&6AdvancedCustomMenu&7]'
+  NoPermission: '%prefix% &cSorry! &fYou do not have permission for this command!'
+  Reload: 
+    Message: '%prefix% &aConfig and Messages Reloaded!'
+  NotExist: '%prefix% &cThe menu &e%menu%&c does not exist!'
+  Invalid: '%prefix% &cWhoops! &7Invalid argument, try &e/%command% help&7!'
+  Price: '%prefix% &cSorry! &7You must have atleast &f$%price% &7to use this!'
+  Points: '%prefix% &cSorry! &7You must have atleast &f%points% &7to use this!'
+  Experience: '%prefix% &cSorry! &7You must have atleast &f%experience% &7experience levels to use this!'
+  Delay: '%prefix% &cSorry! You must wait atleast {secondsleft} to use this item again!'
+  Item:
+    Success:
+      Self: '%prefix% &7You have been given &a%menu%''s &7menu item!'
+      Other: '%prefix% &7You have given the &a%menu%''s &7menu item to &e%player%&7!'
+    Failed:
+      Already: 
+        Self: '%prefix% &7You already have the &a%menus%''s &7menu item!'
+        Other: '%prefix% &7The player &c%player% &7already has the &a%menus%''s &7menu item!'
+      Full: 
+        Self: '%prefix% &7Seems like you don''t have enough space in your inventory!'
+        Other: '%prefix% &7Seems like the player &c%player% &7doesn''t have enough space in their inventory!'
+      Player:
+        Exist: '%prefix% &7The player &c%player% &7does not exist!'
+        Permission: '%prefix% &7Seems as if the player &c%player% &7does not have permission to open this menu! Thus this item will not be given!'
+      Menu: '%prefix% &7The item for menu &e%menu% &7does not exist!'
+  List:
+    Available: '%prefix% &7Here is a list of all available menus you can open:&f %list% &8Use "/acm open <menu>" to open one!'
+    None: '%prefix% &7Looks like there is no available menus!'
+
+Usage:
+  Open: '&cUsage: /%command% open <menu> [arguments]'
+  Item:
+    Self: '&cUsage: /%command% item <menu>'
+    Other: '&7Usage: /%command% item <menu> [player]'
+
+Help:
+  Prefix:
+  - '&e&m------&r &6&lAdvancedCustomMenu &8| &7Help &e&m------'
+  Reload: '&7- &6/%command% reload&7: Reloads the config!'
+  Open: '&7- &6/%command% open <menu> [arguments]&7: Opens a specific menu!'
+  Item:
+    Self: '&7- &6/%command% item <menu>&7: Give yourself a menu item!'
+    Other: '&7- &6/%command% item <menu> [arguments]&7: Give yourself or others a menu item!'
+  Suffix:
+  - '&e-------------------------------'
