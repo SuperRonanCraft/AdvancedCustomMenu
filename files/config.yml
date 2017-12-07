@@ -1,14 +1,14 @@
 Settings:
   ForceUpdateInventories: false # Make inventories update once the item changes, or wait for server 
-  ReloadDelays: true # When reloading, should delays be reset?
-  Disable-Updater: false # Disable the update message?
-Messages:
-  Prefix: '&7[&6AdvancedCustomMenu&7]'
-  NoPermission: '%prefix% &cSorry! &fYou do not have permission for this command!'
-  Reload: '%prefix% &aConfig and Messages Reloaded!'
-  NotExist: '%prefix% &cThe menu &e%menu%&c does not exist!'
-  Invalid: '%prefix% &cWhoops! &7Invalid argument, try &e/%command% help&7!'
-  Price: '%prefix% &cSorry! &7You must have atleast &f$%price% &7to us this!' # Added in 1.2.1
-  Points: '%prefix% &cSorry! &7You must have atleast &f%points% &7to use this!' # Added in 2.2.0
-  Experience: '%prefix% &cSorry! &7You must have atleast &f%experience% &7points to use this!' # Added in 2.2.0
-  Delay: '%prefix% &cSorry! You must wait atleast {secondsleft} to use this item again!' # Added in 2.2.0
+  ReloadDelays: false # When reloading, should delays be reset?
+  Disable-Updater: false
+  Language-File: 'en.yml'
+
+# The max amount of suggestions or what to suggest when tab-completing a menu with arguments!
+Suggestions:
+  Player: 20 # This is also a max on the "/acm item <menu> [player]" command!
+  Integer: 50
+  String:
+  - 'Advanced'
+  - 'Custom'
+  - 'Menu'
