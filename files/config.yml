@@ -1,7 +1,8 @@
 Settings:
   ForceUpdateInventories: false # Make inventories update once the item changes, or wait for server 
   ReloadDelays: false # When reloading, should delays be reset?
-  Disable-Updater: false
+  Disable-Updater: false # If you want to disable the auto-updater put it on true.
+# You can chose 4 languages : en.yml by default, fr.yml for French, de.yml for German and es.yml for Spanish.
   Language-File: 'en.yml'
 
 # The max amount of suggestions or what to suggest when tab-completing a menu with arguments!
