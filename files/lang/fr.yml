@@ -1,0 +1,47 @@
+Messages:
+  Prefix: '&7[&6AdvancedCustomMenu&7]'
+  NoPermission: '%prefix% &cDésolé ! &fTu n''as pas la permission !'
+  Reload: 
+    Message: '%prefix% &aConfig et Messages Rechargés !'
+  NotExist: '%prefix% &cLe menu &e%menu%&c n''existe pas !'
+  Invalid: '%prefix% &cWhoops! &7Argument invalide, essaye &e/%command% help&7!'
+  Price: '%prefix% &cDésolé ! &7Tu dois avoir au minimum &f$%price% &7pour utiliser ceci !'
+  Points: '%prefix% &cDésolé ! &7Tu dois avoir au minimum &f%points% &7pour utiliser ceci !'
+  Experience: '%prefix% &cDésolé ! &7Tu dois avoir au minimum &f%experience% &7niveaux d''experience pour utiliser cela !'
+  Delay: '%prefix% &cDésolé ! Tu dois attendre au minimum {secondsleft} secondes pour utiliser cet objet à nouveau !'
+  Item:
+    Success:
+      Self: '%prefix% &7Tu as bien reçu l''objet du menu &a%menu%!'
+      Other: '%prefix% &7Tu as donné le menu &a%menu% à &e%player%&7!'
+    Failed:
+      Already: 
+        Self: '%prefix% &7Tu as déjà l''objet du menu &a%menus% !'
+        Other: '%prefix% &7TLe joueur &c%player% &7a déjà l''objet du menu &a%menus% !'
+      Full: 
+        Self: '%prefix% &7Il semblerait que tu n''aies pas assez d''espace dans ton inventaire !'
+        Other: '%prefix% &7Il semblerait que le joueur &c%player% &7n''a pas assez d''espace dans son inventaire !'
+      Player:
+        Exist: '%prefix% &7Le joueur &c%player% &7n''existe pas !'
+        Permission: '%prefix% &7Il semblerait que le joueur &c%player% &7n''a pas la permission d''ouvrir ce menu ! Cet objet ne sera donc pas donné !'
+      Menu: '%prefix% &7L''objet pour le menu &e%menu% &7n''existe pas !'
+  List:
+    Available: '%prefix% &Voici la liste de tous les objets disponibles:&f %list% &8Utilise "/acm open <menu>" pour en ouvrir un !'
+    None: '%prefix% &7Il n''y a aucun menu disponible !'
+
+Usage:
+  Open: '&cUsage: /%command% open <menu> [arguments]'
+  Item:
+    Self: '&cUsage: /%command% item <menu>'
+    Other: '&7Usage: /%command% item <menu> [joueur]'
+
+Help:
+  Prefix:
+  - '&e&m------&r &6&lAdvancedCustomMenu &8| &7Aide &e&m------'
+  Reload: '&7- &6/%command% reload&7: Régénère la configuration !'
+  Open: '&7- &6/%command% open <menu> [arguments]&7: Ouvre un menu spécifique !'
+  Item:
+    Self: '&7- &6/%command% item <menu>&7: Donne à toi-même un menu !'
+    Other: '&7- &6/%command% item <menu> [arguments]&7: Donne à toi-même ou à un autre joueur un menu !'
+  List: '&7- &6/%command% list&7: Liste de tous les menus disponibles'
+  Suffix:
+  - '&e&m-------------------------------'
