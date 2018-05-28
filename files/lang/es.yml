@@ -1,13 +1,16 @@
+#SPANISH
 Messages:
   Prefix: '&7[&6MenúPersonalizado&7]'
   NoPermission: '%prefix% &c¡Lo Siento! &f¡No tienes permiso para este comando!'
   Reload: 
-    Message: '%prefix% &aConfiguración y mensajes recargados!'
+    Message: '%prefix% &aConfiguración y mensajes recargados! &fCon %amount% menús cargados!'
+    Menu: '%prefix% &c¡Ups! ¡Este menú ya no existe debido a una recarga!'
   NotExist: '%prefix% &c¡El menu &e%menu%&c no existe!'
   Invalid: '%prefix% &c¡Ups! &7Discurso inválido, prueba &e/%command% help&7!'
   Price: '%prefix% &c¡Lo siento! &7Debe tener al menos &f$%price% &7para usar esto!'
   Points: '%prefix% &c¡Lo siento! &7Debe tener al menos &f%points% &7para usar esto!'
   Experience: '%prefix% &c¡Lo siento! &7Debe tener al menos &f%experience% &7niveles de experiencia para usar esto!'
+  Items: '%prefix% &c¡Lo siento! &7¡No tienes &f%item-amount% %item%&7!'
   Delay: '%prefix% &c¡Lo siento! ¡Debe esperar al menos {secondsleft} para volver a utilizar este elemento!'
   Item:
     Success:
@@ -15,8 +18,8 @@ Messages:
       Other: '%prefix% &7¡Has dado el elemento de menú &a%menu% &7a &e%player%&7!'
     Failed:
       Already: 
-        Self: '%prefix% &7Ya tiene el elemento de menú de &a%menus%&7!'
-        Other: '%prefix% &7¡El jugador &c%player% &7ya tiene el elemento de menú &a%menus%&7!'
+        Self: '%prefix% &7Ya tiene el elemento de menú de &a%menu%&7!'
+        Other: '%prefix% &7¡El jugador &c%player% &7ya tiene el elemento de menú &a%menu%&7!'
       Full: 
         Self: '%prefix% &7¡Parece que no tienes suficiente espacio en tu inventario!'
         Other: '%prefix% &7¡Parece que el jugador &c%player% &7no tiene suficiente espacio en su inventario!'
@@ -43,5 +46,6 @@ Help:
     Self: '&7- &6/%command% item <menu>&7: ¡Date un elemento de menú!'
     Other: '&7- &6/%command% item <menu> [argumentos]&7: ¡Dése a sí mismo u otros un elemento de menú!'
   List: '&7- &6/%command% list&7: Enumera todos los menús disponibles para ti'
+  Updater: '&7- &6/%command% updates&7: Muestra lo que trae el último parche'
   Suffix:
   - '&e&m-------------------------------'

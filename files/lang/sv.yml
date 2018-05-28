@@ -1,0 +1,51 @@
+#SWEDISH
+Messages:
+  Prefix: '&7[&6AdvancedCustomMenu&7]'
+  NoPermission: '%prefix% &cLedsen! &fDu har inte tillåtelse till att använda detta kommando!'
+  Reload: 
+    Message: '%prefix% &aConfigen och meddelandena har laddats om! &fMed %amount% menyer laddade!'
+    Menu: '%prefix% &cHoppsan! Den här menyn finns inte längre på grund av en omladdning!'
+  NotExist: '%prefix% &cMenyn &e%menu%&c existerar inte!'
+  Invalid: '%prefix% &cHoppsan! &7Kommando felskrivet, testa &e/%command% help&7!'
+  Price: '%prefix% &cLedsen! &7Du måste minst ha &f$%price% &7för att använda detta!'
+  Points: '%prefix% &cLedsen! &7Du måste minst ha &f%points% &7för att använda detta!'
+  Experience: '%prefix% &cLedsen! &7Du måste minst ha &f%experience% &7exp levlar för att använda detta!'
+  Items: '%prefix% &cFörlåt! &7Du har inte &f%item-amount% %item%&7!'
+  Delay: '%prefix% &cLedsen! Du måste minst vänta {secondsleft} för att använda detta igen!'
+  Item:
+    Success:
+      Self: '%prefix% &7Du har gett &a%menu%''s &7meny item!'
+      Other: '%prefix% &7Du har gett &a%menu%''s &7meny item till &e%player%&7!'
+    Failed:
+      Already: 
+        Self: '%prefix% &7Du har redan &a%menu%''s &7meny item!'
+        Other: '%prefix% &7Spelaren &c%player% &7har redan &a%menu%''s &7meny item!'
+      Full: 
+        Self: '%prefix% &7Det ser ut som att du inte har tillräckligt med utrymme i Inventoryt!'
+        Other: '%prefix% &7Det ser ut som att spelaren &c%player% &7inte har tillräckligt med utrymme i Inventoryt!'
+      Player:
+        Exist: '%prefix% &7Spelaren &c%player% &7existerar inte!'
+        Permission: '%prefix% &7Det ser ut som att spelaren &c%player% &7inte har tillgång till att öppna denna menyn! Detta itemet kommer inte att ges till spelaren!'
+      Menu: '%prefix% &7Item för menyn &e%menu% &7existerar inte!'
+  List:
+    Available: '%prefix% &7Här är en lista av alla tillgängliga menyer som du kan öppna:&f %list% &8Använd "/acm open <menu>" för att öppna en meny!'
+    None: '%prefix% &7LDet ser ut som att det inte finns några tillgängliga menyer!'
+
+Usage:
+  Open: '&cAnvänd: /%command% open <meny> [argument]'
+  Item:
+    Self: '&cAnvänd: /%command% item <meny>'
+    Other: '&7Använd: /%command% item <meny> [spelaren]'
+
+Help:
+  Prefix:
+  - '&e&m------&r &6&lAdvancedCustomMenu &8| &7Hjälp &e&m------'
+  Reload: '&7- &6/%command% reload&7: Laddar om config filen!'
+  Open: '&7- &6/%command% open <meny> [argument]&7: Öppnar en specefik meny!'
+  Item:
+    Self: '&7- &6/%command% item <meny>&7: Ger dig själv ett meny item!'
+    Other: '&7- &6/%command% item <meny> [argument]&7: Ger dig själv eller andra et meny item!'
+  List: '&7- &6/%command% list&7: Lista av alla tillgängliga menyer för dig'
+  Updater: '&7- &6/%command% updates&7: Montrer ce que le dernier patch apporte'
+  Suffix:
+  - '&e&m-------------------------------'
