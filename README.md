@@ -14,7 +14,7 @@ Head on over to AdvancedCustomItemAPI's wiki [here](https://github.com/SuperRona
   <b>Have a Suggestion? Make an issue!</b><br/>
   <a href="../../issues"><img src="https://img.shields.io/github/issues-raw/SuperRonanCraft/AdvancedCustomMenu.svg" alt="GitHub issues" /></a><br/>
   <br/>
-  <a href="https://www.spigotmc.org/resources/40528/">Thank you for viewing the Wiki for AdvancedCustomMenu!</a><br/>
+  <a href="https://www.spigotmc.org/resources/47945/">Thank you for viewing the Wiki for AdvancedCustomMenu!</a><br/>
   <i><a>Did this wiki help you out? Please give it a <b>Star</b> so I know it's getting use!</a></i><br/>
   <br/>
   <b><i><a href="https://www.spigotmc.org/resources/authors/superronancraft.13025/">Check out my other plugins!</a></i></b>
