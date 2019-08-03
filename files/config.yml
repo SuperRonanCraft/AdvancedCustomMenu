@@ -1,5 +1,5 @@
 Settings:
-  ForceUpdateInventories: false # Make inventories update once the item changes, or wait for server 
+  ForceUpdateInventories: false # Make menus update once the item changes, or wait for server
   ReloadDelays: false # When reloading, should delays be reset?
   Disable-Updater: false
   Language-File: 'en.yml'

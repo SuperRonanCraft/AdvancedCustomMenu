@@ -25,7 +25,7 @@ Items:
         - '&7This is the second frame!'
     Click-Handlers:
       1:
-        Click-Type: 'left'## If disabled, click-type is ignored
+        Click-Type: 'left'## If disabled, click-menus is ignored
         Shift: false ## If disabled, shift is ignored
         Commands:
         - 'broadcast &a%player_name% &cis a savage&f!'
