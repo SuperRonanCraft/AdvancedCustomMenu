@@ -1,0 +1,37 @@
+Messages:
+  Prefix: '&7[&6BetterEconomy&7]'
+  Balance:
+    Self: '%prefix% &7您的账户中有 &e{0}'
+    Other: '%prefix% &e{0} &7的账户中有 &e{1}'
+  Success:
+    Pay: '%prefix% &a成功给 &6{1} &a付款 &e{0}'
+    Add: '%prefix% &7成功给 &6{1} &7的账户增加 &e{0}&7!'
+    Set: '%prefix% &7成功将 &6{1} &7的存款设定为 &e{0}&7!'
+    Remove: '%prefix% &7从&6{1} &7的账户中移除 &e{0}&7! 现在他(她)剩余 &e{2}'
+  Fail:
+    Name: '%prefix% &7在数据库中没有找到玩家 &e{0}&7!'
+    Number: '%prefix% &7无效的数额! &f必须是整数!'
+    Pay: '%prefix% &7没有足够的存款 &a{0}&7 付款给 &e{1}&7'
+    Self: '%prefix% &c笨蛋! 怎么能付款给自己呢!'
+    TooMany: '%prefix% &7找到了玩家 &e{0}&7, 但有同名项&f: &c{1}'
+  Reload: '%prefix% &e重载配置和语言文件成功!'
+  Top:
+    Prefix: '&e&m-----&7  {0} 个富翁玩家 &e&m-----'
+    Player: '&6{0}. &7{1}&f: &7{2}' #{0} 页码, {1} 玩家, {2} 存款
+    None: '&c还没有富翁! &f通过赚钱成为第一个富翁吧!'
+
+Help:
+  Prefix: '&e&m-----&6 BetterEconomy &e&m-----'
+  Balance: ' &7- &e/{0} bal &7- 查看您的存款'
+  Pay: ' &7- &e/{0} pay <player,player2> <amount> &7- 付款给一名或多名玩家s'
+  Top: ' &7- &e/{0} top &7- 查看前10名富翁'
+  Set: ' &7- &e/{0} set <player> <amount> &7- 设定一名玩家的存款'
+  Remove: ' &7- &e/{0} remove <player> <amount> &7- 扣除一名玩家的存款'
+  Add: ' &7- &e/{0} add <player> <amount> &7- 给一名玩家增加存款'
+  Reload: ' &7- &e/{0} reload &7- 重载配置和语言文件'
+
+Usage:
+  Set: '&c用法: &7/{0} set <player> <amount>'
+  Remove: '&c用法: &7/{0} remove <player> <amount>'
+  Add: '&c用法: &7/{0} add <player> <amount>'
+  Pay: '&c用法: &7/{0} pay <player,player2..> <amount>'
