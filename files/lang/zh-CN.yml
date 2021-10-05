@@ -23,15 +23,15 @@ Messages:
 Help:
   Prefix: '&e&m-----&6 BetterEconomy &e&m-----'
   Balance: ' &7- &e/{0} bal &7- 查看您的存款'
-  Pay: ' &7- &e/{0} pay <player,player2> <amount> &7- 付款给一名或多名玩家s'
+  Pay: ' &7- &e/{0} pay <玩家,玩家2> <数额> &7- 付款给一名或多名玩家s'
   Top: ' &7- &e/{0} top &7- 查看前10名富翁'
-  Set: ' &7- &e/{0} set <player> <amount> &7- 设定一名玩家的存款'
-  Remove: ' &7- &e/{0} remove <player> <amount> &7- 扣除一名玩家的存款'
-  Add: ' &7- &e/{0} add <player> <amount> &7- 给一名玩家增加存款'
+  Set: ' &7- &e/{0} set <玩家> <数额> &7- 设定一名玩家的存款'
+  Remove: ' &7- &e/{0} remove <玩家> <数额> &7- 扣除一名玩家的存款'
+  Add: ' &7- &e/{0} add <玩家> <数额> &7- 给一名玩家增加存款'
   Reload: ' &7- &e/{0} reload &7- 重载配置和语言文件'
 
 Usage:
-  Set: '&c用法: &7/{0} set <player> <amount>'
-  Remove: '&c用法: &7/{0} remove <player> <amount>'
-  Add: '&c用法: &7/{0} add <player> <amount>'
-  Pay: '&c用法: &7/{0} pay <player,player2..> <amount>'
+  Set: '&c用法: &7/{0} set <玩家> <数额>'
+  Remove: '&c用法: &7/{0} remove <玩家> <数额>'
+  Add: '&c用法: &7/{0} add <玩家> <数额>'
+  Pay: '&c用法: &7/{0} pay <玩家,玩家2..> <数额>'
