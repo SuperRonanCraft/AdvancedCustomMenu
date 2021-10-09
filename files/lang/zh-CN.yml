@@ -1,0 +1,51 @@
+#CHINESE(Simplified)
+Messages:
+  Prefix: '&7[&6AdvancedCustomMenu&7]'
+  NoPermission: '%prefix% &c抱歉! &f您没有执行该指令的权限!'
+  Reload:
+    Message: '%prefix% &a已重载配置和语言文件! &f加载了 %amount% 个菜单!'
+    Menu: '%prefix% &c哎哟! 重载后此菜单不存在了!'
+  NotExist: '%prefix% &c菜单 &e%menu%&c 不存在!'
+  Invalid: '%prefix% &c哎哟! &7无效的参数, 查看帮助请输入 &e/%command% help&7!'
+  Price: '%prefix% &c抱歉! &7您至少需要余额大于 &f$%price% &7才能使用!'
+  Points: '%prefix% &c抱歉! &7您至少需要点数大于 &f%points% &7才能使用!'
+  Experience: '%prefix% &c抱歉! &7您至少需要经验多于 &f%experience% &7才能使用!'
+  Items: '%prefix% &c抱歉! &7您不够 &f%item-amount% 个 %item%&7!'
+  Delay: '%prefix% &c抱歉! 您至少需要等待 {secondsleft} 秒才能再次使用此物品!'
+  Item:
+    Success:
+      Self: '%prefix% &7您已被给予 &a%menu% &7菜单的物品!'
+      Other: '%prefix% &7您已成功给予 &e%player% &a%menu% &7菜单的物品!'
+    Failed:
+      Already: 
+        Self: '%prefix% &7您已经拥有了 &a%menu% &7菜单的物品!'
+        Other: '%prefix% &7玩家 &c%player% &7已经拥有了 &a%menu% &7菜单的物品!'
+      Full: 
+        Self: '%prefix% &7貌似您物品栏剩余空间不足!'
+        Other: '%prefix% &7貌似玩家 &c%player% &7的物品栏剩余空间不足!'
+      Player:
+        Exist: '%prefix% &7玩家 &c%player% &7不存在!'
+        Permission: '%prefix% &7貌似玩家 &c%player% &7没有权限打开此菜单! 因此该物品将不会给予给玩家!'
+      Menu: '%prefix% &7菜单 &e%menu% &7的对应物品不存在!'
+  List:
+    Available: '%prefix% &7以下菜单可供您打开:&f %list% &8使用 "/acm open <菜单>" 以打开一个!'
+    None: '%prefix% &7好像没有可用的菜单!'
+
+Usage:
+  Open: '&c用法: /%command% open <菜单> [参数]'
+  Item:
+    Self: '&c用法: /%command% item <菜单>'
+    Other: '&7用法: /%command% item <菜单> [玩家]'
+
+Help:
+  Prefix:
+  - '&e&m------&r &6&lAdvancedCustomMenu &8| &7帮助 &e&m------'
+  Reload: '&7- &6/%command% reload&7: 重载插件配置!'
+  Open: '&7- &6/%command% open <用法> [arguments]&7: 打开一个指定的菜单!'
+  Item:
+    Self: '&7- &6/%command% item <用法>&7: 给予自己一个菜单的物品!'
+    Other: '&7- &6/%command% item <用法> [参数]&7: 给予自己或他人一个菜单的物品!'
+  List: '&7- &6/%command% list&7: 列出所有可供您打开的菜单'
+  Updater: '&7- &6/%command% updates&7: 检查插件更新'
+  Suffix:
+  - '&e-------------------------------'
